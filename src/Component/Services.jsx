@@ -1,0 +1,83 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
+
+const Services = () => {
+  const navigate = useNavigate();
+
+  return (
+    <div className="py-8 px-4 md:px-14">
+      {/* Ana Başlık */}
+      <h1 className="text-center text-3xl md:text-4xl font-extrabold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-red-600">
+        HİZMETLERİMİZ
+      </h1>
+
+      {/* Hizmet Bölümü */}
+      <div className="bg-gray-100 p-6 md:p-8 rounded-lg shadow-md">
+        {/* Alt Başlık */}
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 border-b-2 border-green-500 pb-2">
+          Üst Yapı Elemanları
+        </h2>
+
+        {/* İçerik Paragrafı */}
+        <p className="text-gray-700 leading-relaxed">
+          Üst yapı elemanları; çevre düzenleme ve peyzaj çalışmalarında sıkça
+          kullanılan beton ürünlerini kapsamaktadır. Şev taşı, flora şev taşı,
+          terra blok, beton bariyer, oluk taşları, bordür taşları, parke
+          taşları, briket, çim taşı, park mantarı ve beton dubalar gibi çeşitli
+          ürünleri içerir. Ürünlerimiz genellikle buhar kürü ile üretilmekte ve
+          sağlamlık ile dayanıklılık sağlamaktadır. Çiçek Üst Yapı Elemanları
+          olarak uygun fiyat avantajlarıyla kaliteli ürünler sunuyoruz.
+        </p>
+      </div>
+
+      {/* Görsel Alanı */}
+      <div className="mt-8 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {/* Görseller */}
+        {[
+          { title: "ŞEV TAŞI", imgSrc: "images/ŞEV TAŞI/sev-tası3.webp", path: "/sev-tasi" },
+          { title: "OLUK TAŞLARI", imgSrc: "images/OLUK TAŞI/oluk-tası1.webp", path: "/oluk-tasi" },
+          { title: "KİLİTLİ PARKE TAŞI", imgSrc: "images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası2.webp", path: "/kilitli-parke-tasi" },
+          { title: "KARE PARKE TAŞI", imgSrc: "images/KARE PARKE TAŞI/kare-parke-tası2.webp", path: "/kare-parke-tasi" },
+          { title: "FLORA ŞEV TAŞI-TERRA BLOK", imgSrc: "images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası2.webp", path: "/flora-sev-tasi" },
+          { title: "BETON BARBEKÜ TAŞI", imgSrc: "images/BETON BARBEKÜ TAŞI/beton-barbekü-tası3.webp", path: "/beton-barbeku-tasi" },
+          { title: "20X50 BAHÇE BORDÜRÜ", imgSrc: "images/BAHCE BORDURU/bahce-borduru4.webp", path: "/bahce-borduru" },
+          { title: "30X70 YOL BORDÜRÜ", imgSrc: "images/BAHCE BORDURU/yol-bordürü.webp", path: "/yol-borduru" },
+        ].map((item, index) => (
+          <div
+            key={index}
+            className="relative text-center cursor-pointer"
+          >
+            <h3
+              className={`text-lg md:text-xl font-extrabold mb-4 text-transparent bg-clip-text ${
+                index % 2 === 0
+                  ? "bg-gradient-to-r from-blue-500 to-teal-500"
+                  : "bg-gradient-to-r from-purple-500 to-pink-500"
+              }`}
+            >
+              {item.title}
+            </h3>
+            <div className="w-full h-[400px] mx-auto overflow-hidden rounded-lg shadow-lg group relative">
+              <a
+                href={item.path}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={item.imgSrc}
+                  alt={`${item.title} - yüksek kaliteli ürünler`}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+                {/* Hover İçin Animasyonlu Yazı */}
+                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                  <p className="text-white text-lg font-semibold">Detayları Gör</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Services;

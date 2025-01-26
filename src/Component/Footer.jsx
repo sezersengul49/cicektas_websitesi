@@ -6,8 +6,8 @@ import { SiSahibinden } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-700 text-white py-4">
-      <div className="container mx-auto flex flex-col items-center space-y-6">
+    <footer className="bg-gray-700 text-white py-8">
+      <div className="container mx-auto flex flex-col items-center space-y-8">
         {/* Sahibinden Icon */}
         <div className="flex flex-col items-center space-y-2">
           <a
@@ -24,91 +24,107 @@ const Footer = () => {
         </div>
 
         {/* Ürünlerimiz */}
-        <div className="text-center mb-8">
+        <div className="text-center">
           <h3 className="text-2xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-yellow-500 to-red-400">
             Ürünlerimiz
           </h3>
           <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm md:text-base font-semibold">
-            <a
-              className="bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
-              href="/sev-tasi"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Şev Taşı
-            </a>
-            <a
-              className="bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
-              href="/oluk-tasi"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Oluk Taşları
-            </a>
-            <a
-              className="bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
-              href="/kilitli-parke-tasi"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Kilitli Parke Taşı
-            </a>
-            <a
-              className="bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
-              href="/kare-parke-tasi"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Kare Parke Taşı
-            </a>
-            <a
-              className="bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
-              href="/flora-sev-tasi"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Flora Şev Taşı
-            </a>
-            <a
-              className="bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
-              href="/beton-barbeku-tasi"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Beton Barbekü Taşı
-            </a>
-            <a
-              className="bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
-              href="/bahce-borduru"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              20x50 Bahçe Bordürü
-            </a>
-            <a
-              className="bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
-              href="/yol-borduru"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              30x70 Yol Bordürü
-            </a>
+            <li>
+              <a
+                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
+                href="/sev-tasi"
+              >
+                Şev Taşı
+              </a>
+            </li>
+            <li>
+              <a
+                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
+                href="/oluk-tasi"
+              >
+                Oluk Taşları
+              </a>
+            </li>
+            <li>
+              <a
+                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
+                href="/kilitli-parke-tasi"
+              >
+                Kilitli Parke Taşı
+              </a>
+            </li>
+            <li>
+              <a
+                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
+                href="/kare-parke-tasi"
+              >
+                Kare Parke Taşı
+              </a>
+            </li>
+            <li>
+              <a
+                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
+                href="/flora-sev-tasi"
+              >
+                Flora Şev Taşı
+              </a>
+            </li>
+            <li>
+              <a
+                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
+                href="/beton-barbeku-tasi"
+              >
+                Beton Barbekü Taşı
+              </a>
+            </li>
+            <li>
+              <a
+                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
+                href="/bahce-borduru"
+              >
+                20x50 Bahçe Bordürü
+              </a>
+            </li>
+            <li>
+              <a
+                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
+                href="/yol-borduru"
+              >
+                30x70 Yol Bordürü
+              </a>
+            </li>
           </ul>
         </div>
 
-        {/* Other Social Icons */}
+        {/* Social Media Icons */}
         <div className="flex justify-center space-x-6">
-          {/* Facebook Icon */}
-
-          <FaFacebook size={30} />
-
-          {/* Twitter Icon */}
-
-          <FaTwitter size={30} />
-
-          {/* Instagram Icon */}
-
-          <FaInstagram size={30} />
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            className="hover:scale-110 transition-all"
+          >
+            <FaFacebook size={30} />
+          </a>
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter"
+            className="hover:scale-110 transition-all"
+          >
+            <FaTwitter size={30} />
+          </a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="hover:scale-110 transition-all"
+          >
+            <FaInstagram size={30} />
+          </a>
         </div>
       </div>
 

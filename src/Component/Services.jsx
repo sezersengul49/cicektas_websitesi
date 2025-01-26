@@ -59,8 +59,8 @@ const Services = () => {
             <div className="w-full h-[400px] mx-auto overflow-hidden rounded-lg shadow-lg group relative">
               <a
                 href={item.path}
-                target="_blank"
-                rel="noopener noreferrer"
+                aria-label={item.title}
+                className="block"
               >
                 <img
                   src={item.imgSrc}

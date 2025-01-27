@@ -27,17 +27,17 @@ const KilitliParkeTasi = () => {
             <img
               src="images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası2.webp"
               alt="Kilitli Parke Taşı"
-              className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+              className="w-full max-w-[350px] h-[380px] rounded-lg shadow-lg mx-auto"
             />
             <img
               src="images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası3.webp"
               alt="Kilitli Parke Taşı"
-              className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+              className="w-full max-w-[350px] h-[380px] rounded-lg shadow-lg mx-auto"
             />
             <img
               src="images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası4.webp"
               alt="Kilitli Parke Taşı"
-              className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+              className="w-full max-w-[350px] h-[380px] rounded-lg shadow-lg mx-auto"
             />
           </div>
     
@@ -113,17 +113,17 @@ const KilitliParkeTasi = () => {
             <img
               src="images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası1.webp"
               alt="Kilitli Parke Taşı"
-              className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+              className="w-full max-w-[350px] h-[380px] rounded-lg shadow-lg mx-auto"
             />
             <img
               src="images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası5.webp"
               alt="Kilitli Parke Taşı"
-              className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+              className="w-full max-w-[350px] h-[380px] rounded-lg shadow-lg mx-auto"
             />
             <img
               src="images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası6.webp"
               alt="Kilitli Parke Taşı"
-              className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+              className="w-full max-w-[350px] h-[380px] rounded-lg shadow-lg mx-auto"
             />
           </div>
         </div>

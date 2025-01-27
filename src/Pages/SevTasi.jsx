@@ -36,7 +36,7 @@ const SevTasi = () => {
           className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
         />
         <img
-          src="images/ŞEV TAŞI/sev-tası3.webp"
+          src="images/ŞEV TAŞI/sev-tası7.webp"
           alt="Şev Taşı"
           className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
         />
@@ -128,6 +128,11 @@ const SevTasi = () => {
         />
         <img
           src="images/ŞEV TAŞI/sev-tası5.webp"
+          alt="Şev Taşı"
+          className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+        />
+        <img
+          src="images/ŞEV TAŞI/sev-tası3.webp"
           alt="Şev Taşı"
           className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
         />

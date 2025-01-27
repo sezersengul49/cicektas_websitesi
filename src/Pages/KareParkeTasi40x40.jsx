@@ -123,7 +123,7 @@ const KareParkeTasi = () => {
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
-            src="images/KARE PARKE TAŞI/40x40-kare1.webp"
+            src="images/KARE PARKE TAŞI/40x40-kare6.webp"
             alt="Kare Parke Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />

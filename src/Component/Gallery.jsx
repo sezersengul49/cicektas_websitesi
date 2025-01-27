@@ -61,7 +61,7 @@ const Gallery = () => {
               <img
                 src={image.src}
                 alt={image.alt}
-                className="w-full h-[280px] object-cover"
+                className="w-full h-40 object-cover"
                 loading="lazy"
               />
             </div>

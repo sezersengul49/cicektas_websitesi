@@ -129,6 +129,21 @@ const BetonBarbeküTasi = () => {
             alt="Beton Barbekü Taşı"
             className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
           />
+          <img
+            src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası2.webp"
+            alt="Beton Barbekü Taşı"
+            className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
+          />
+          <img
+            src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası7.webp"
+            alt="Beton Barbekü Taşı"
+            className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
+          />
+           <img
+            src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası1.webp"
+            alt="Beton Barbekü Taşı"
+            className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
+          />
         </div>
       </div>
     </>

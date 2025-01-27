@@ -3,10 +3,13 @@ import React, { useState, useEffect } from "react";
 const Section = () => {
   const images = [
     "images/sev-tas.webp",
+    "images/anakapak3.webp",
     "images/flora-tas.webp",
+    "images/anakapak4.webp",
     "images/oluk-tas.webp",
     "images/kareparke-tas.webp",
     "images/kilitli-tas.webp",
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -39,7 +42,7 @@ const Section = () => {
       {/* Fotoğraf */}
       <div className="w-full h-[550px] overflow-hidden flex justify-center items-center">
         <img
-          className="w-full h-full object-cover rounded-lg shadow-lg"
+          className="w-full h-full object-cover object-center rounded-lg shadow-lg"
           src={images[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
         />

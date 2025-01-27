@@ -30,17 +30,17 @@ const YolBordürü = () => {
           <img
             src="images/BAHCE BORDURU/yol-bordürü.webp"
             alt="30x70 yol Bordürü"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
-            src="images/BAHCE BORDURU/bahce-borduru3.webp"
+            src="images/BAHCE BORDURU/30x70-yol.webp"
             alt="30x70 yol Bordürü"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
-            src="images/BAHCE BORDURU/bahce-borduru2.webp"
+            src="images/BAHCE BORDURU/30x70-yol3.webp"
             alt="30x70 yol Bordürü"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
         </div>
 
@@ -120,14 +120,14 @@ const YolBordürü = () => {
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
-            src="images/BAHCE BORDURU/bahce-borduru1.webp"
+            src="images/BAHCE BORDURU/30x70-yol2.webp"
             alt="30x70 yol Bordürü"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
-            src="images/BAHCE BORDURU/20x70.webp"
+            src="images/BAHCE BORDURU/30x70yol1.webp"
             alt="30x70 yol Bordürü"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
         
         </div>

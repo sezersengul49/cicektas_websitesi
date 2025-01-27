@@ -18,11 +18,12 @@ import OlukTasi2 from "./Pages/OlukTasi2";
 import OlukTasi3 from "./Pages/OlukTasi3";
 import OlukTasi4 from "./Pages/OlukTasi4";
 import OlukTasi5 from "./Pages/OlukTasi5";
-
+import KareParkeTasi40x40 from "./Pages/KareParkeTasi40x40";
 import Services from "./Component/Services";
 import AboutUs from "./Component/AboutUs";
 import Contact from "./Component/Contact";
 import Gallery from "./Component/Gallery";
+import ErrorPage from "./Pages/ErrorPage";
 
 const App = () => {
   return (
@@ -39,7 +40,8 @@ const App = () => {
           <Route path="/sev-tasi" element={<SevTasi />} />
           <Route path="/oluk-tasi" element={<OlukTasi />} />
           <Route path="/kilitli-parke-tasi" element={<KilitliParkeTasi />} />
-          <Route path="/kare-parke-tasi" element={<KareParkeTasi />} />
+          <Route path="/30x30-kare-parke-tasi" element={<KareParkeTasi />} />
+          <Route path="/40x40-kare-parke-tasi" element={<KareParkeTasi40x40/>} />
           <Route path="/flora-sev-tasi" element={<FloraSevTasi />} />
           <Route path="/beton-barbeku-tasi" element={<BetonBarbeküTasi />} />
           <Route path="/bahce-borduru" element={<BahceBordürü />} />
@@ -49,6 +51,7 @@ const App = () => {
           <Route path="/25x25-oluk-tasi" element={<OlukTasi3/>} />
           <Route path="/25x30-oluk-tasi" element={<OlukTasi4/>} />
           <Route path="/25x33-oluk-tasi" element={<OlukTasi5/>} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

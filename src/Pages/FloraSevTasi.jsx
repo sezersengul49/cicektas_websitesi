@@ -32,7 +32,7 @@ const FloraSevTasi = () => {
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası1.webp"
+            src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası8.webp"
             alt="Flora Şev Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
@@ -129,7 +129,7 @@ const FloraSevTasi = () => {
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
-            src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası6.webp"
+            src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası1.webp"
             alt="Flora Şev Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />

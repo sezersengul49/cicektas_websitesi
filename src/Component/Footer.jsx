@@ -32,17 +32,9 @@ const Footer = () => {
             <li>
               <a
                 className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
-                href="/sev-tasi"
+                href="/40x40-kare-parke-tasi"
               >
-                Şev Taşı
-              </a>
-            </li>
-            <li>
-              <a
-                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
-                href="/oluk-tasi"
-              >
-                Oluk Taşları
+                40x40 Kare Parke Taşı
               </a>
             </li>
             <li>
@@ -56,19 +48,12 @@ const Footer = () => {
             <li>
               <a
                 className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
-                href="/kare-parke-tasi"
+                href="/30x30-kare-parke-tasi"
               >
-                Kare Parke Taşı
+                30x30 Kare Parke Taşı
               </a>
             </li>
-            <li>
-              <a
-                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
-                href="/flora-sev-tasi"
-              >
-                Flora Şev Taşı
-              </a>
-            </li>
+
             <li>
               <a
                 className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
@@ -91,6 +76,31 @@ const Footer = () => {
                 href="/yol-borduru"
               >
                 30x70 Yol Bordürü
+              </a>
+            </li>
+            <li>
+              <a
+                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
+                href="/flora-sev-tasi"
+              >
+                Flora Şev Taşı
+              </a>
+            </li>
+            <li>
+              <a
+                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
+                href="/sev-tasi"
+              >
+                Şev Taşı
+              </a>
+            </li>
+
+            <li>
+              <a
+                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
+                href="/oluk-tasi"
+              >
+                Oluk Taşları
               </a>
             </li>
           </ul>

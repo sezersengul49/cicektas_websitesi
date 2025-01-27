@@ -31,45 +31,72 @@ const Services = () => {
       </div>
 
       {/* Görsel Alanı */}
-      <div className="mt-8 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-8 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
         {/* Görseller */}
         {[
-          { title: "ŞEV TAŞI", imgSrc: "images/ŞEV TAŞI/sev-tası3.webp", path: "/sev-tasi" },
-          { title: "OLUK TAŞLARI", imgSrc: "images/OLUK TAŞI/oluk-tası1.webp", path: "/oluk-tasi" },
-          { title: "KİLİTLİ PARKE TAŞI", imgSrc: "images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası2.webp", path: "/kilitli-parke-tasi" },
-          { title: "KARE PARKE TAŞI", imgSrc: "images/KARE PARKE TAŞI/kare-parke-tası2.webp", path: "/kare-parke-tasi" },
-          { title: "FLORA ŞEV TAŞI-TERRA BLOK", imgSrc: "images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası2.webp", path: "/flora-sev-tasi" },
-          { title: "BETON BARBEKÜ TAŞI", imgSrc: "images/BETON BARBEKÜ TAŞI/beton-barbekü-tası3.webp", path: "/beton-barbeku-tasi" },
-          { title: "20X50 BAHÇE BORDÜRÜ", imgSrc: "images/BAHCE BORDURU/bahce-borduru4.webp", path: "/bahce-borduru" },
-          { title: "30X70 YOL BORDÜRÜ", imgSrc: "images/BAHCE BORDURU/yol-bordürü.webp", path: "/yol-borduru" },
+          {
+            title: "ŞEV TAŞI",
+            imgSrc: "images/ŞEV TAŞI/sev-tası3.webp",
+            path: "/sev-tasi",
+          },
+          {
+            title: "OLUK TAŞLARI",
+            imgSrc: "images/OLUK TAŞI/oluk-tası6.webp",
+            path: "/oluk-tasi",
+          },
+          {
+            title: "30X30 KARE PARKE TAŞI",
+            imgSrc: "images/KARE PARKE TAŞI/30x30-kare-parke.webp",
+            path: "/30x30-kare-parke-tasi",
+          },
+          {
+            title: "KİLİTLİ PARKE TAŞI",
+            imgSrc: "images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası7.webp",
+            path: "/kilitli-parke-tasi",
+          },
+         
+          {
+            title: "40X40 KARE PARKE TAŞI",
+            imgSrc: "images/KARE PARKE TAŞI/30x30-kare-parke.webp",
+            path: "/40x40-kare-parke-tasi",
+          },
+          {
+            title: "FLORA ŞEV TAŞI-TERRA BLOK",
+            imgSrc: "images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası8.webp",
+            path: "/flora-sev-tasi",
+          },
+          {
+            title: "BETON BARBEKÜ TAŞI",
+            imgSrc: "images/BETON BARBEKÜ TAŞI/beton-barbekü-tası3.webp",
+            path: "/beton-barbeku-tasi",
+          },
+          {
+            title: "20X50 BAHÇE BORDÜRÜ",
+            imgSrc: "images/BAHCE BORDURU/bahce-borduru7.webp",
+            path: "/bahce-borduru",
+          },
+          {
+            title: "30X70 YOL BORDÜRÜ",
+            imgSrc: "images/BAHCE BORDURU/yol-bordürü.webp",
+            path: "/yol-borduru",
+          },
         ].map((item, index) => (
-          <div
-            key={index}
-            className="relative text-center cursor-pointer"
-          >
-            <h3
-              className={`text-lg md:text-xl font-extrabold mb-4 text-transparent bg-clip-text ${
-                index % 2 === 0
-                  ? "bg-gradient-to-r from-blue-500 to-teal-500"
-                  : "bg-gradient-to-r from-purple-500 to-pink-500"
-              }`}
-            >
+          <div key={index} className="relative text-center cursor-pointer ">
+            <h3 className="text-lg md:text-xl font-extrabold mb-4 text-transparent bg-clip-text bg-black ">
               {item.title}
             </h3>
-            <div className="w-full h-[400px] mx-auto overflow-hidden rounded-lg shadow-lg group relative">
-              <a
-                href={item.path}
-                aria-label={item.title}
-                className="block"
-              >
+            <div className=" overflow-hidden max-w-[400px] h-[400px] rounded-lg shadow-lg group relative ">
+              <a href={item.path} aria-label={item.title} className="block">
                 <img
                   src={item.imgSrc}
                   alt={`${item.title} - yüksek kaliteli ürünler`}
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  className="w-full max-w-[400px] h-[400px] rounded-lg shadow-lg mx-auto transition-transform duration-300 group-hover:scale-105"
                 />
                 {/* Hover İçin Animasyonlu Yazı */}
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
-                  <p className="text-white text-lg font-semibold">Detayları Gör</p>
+                  <p className="text-white text-lg font-semibold">
+                    Detayları Gör
+                  </p>
                 </div>
               </a>
             </div>

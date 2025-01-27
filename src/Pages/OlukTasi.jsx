@@ -61,9 +61,9 @@ const OlukTasi = () => {
                 {item.name}
               </span>
               <div className="overflow-hidden rounded-lg shadow-md">
-                <a href={item.href} target="_blank" rel="noopener noreferrer">
+                <a href={item.href}  rel="noopener noreferrer">
                   <img
-                    src="images/OLUK TAŞI/oluk-tası3.webp"
+                    src="images/OLUK TAŞI/oluk-tası6.webp"
                     alt={`${item.name} - kaliteli drenaj taşı`}
                     className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
                   />

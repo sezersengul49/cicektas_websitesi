@@ -28,17 +28,12 @@ const OlukTasi1 = () => {
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/OLUK TAŞI/oluk-tası1.webp"
+            src="images/OLUK TAŞI/oluk-tası6.webp"
             alt="Oluk Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/OLUK TAŞI/oluk-tası4.webp"
-            alt="Oluk Taşı"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
-          />
-          <img
-            src="images/OLUK TAŞI/oluk-tası3.webp"
             alt="Oluk Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
@@ -121,11 +116,7 @@ const OlukTasi1 = () => {
             alt="Oluk Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
-          <img
-            src="images/OLUK TAŞI/oluk-tası3.webp"
-            alt="Oluk Taşı"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
-          />
+
           <img
             src="images/OLUK TAŞI/oluk-tası4.webp"
             alt="Oluk Taşı"

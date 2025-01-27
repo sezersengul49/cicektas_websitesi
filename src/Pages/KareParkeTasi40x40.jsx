@@ -1,11 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 
-const BahceBordürü = () => {
+const KareParkeTasi = () => {
   return (
     <>
       <Helmet>
-        <title>20x50 Bahçe Bordürü- Çicek Taş Üst Yapı elemanları</title>
+        <title>40x40 Kare Parke Taşı- Çicek Taş Üst Yapı elemanları</title>
         <meta
           name="description"
           content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
@@ -14,29 +14,32 @@ const BahceBordürü = () => {
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
         <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
-          20X50 BAHÇE BORDÜRÜ
+          40x40 Kare Parke Taşı
         </h1>
 
         {/* Açıklama */}
         <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
-        Bahçe Bordürü ürünümüz genellikle bahçelerde kullanılan bahçe bordür ürünüdür, renk seçenekleri kırmızı, gri ve mozaikli olarak üretimi sağlanmaktadır. Beton Bordür kaldırım dan ayırmak için ve yolda biriken suların rögarlara iletmek amacıyla kullanılan beton dan yapılan yapıtlardır ayrıca bahçelerde topraklı zeminden yürüme yolu olarak ayırmak için de kullanılan çok tercih edilen bir üründür. Bahçe Bordür fiyatı ve bahçe bordürü ustalık fiyatı almak için bizlere bir telefon kadar yakın olduğunuzu hatırlatalım. 
+          Wash beton taşları doğal çakıl taşlarının bir araya getirilmesi
+          sonrasında presleme ve daha birçok işlem ile hazırlanan özel
+          taşlardır. Dayanıklılığı artırılan taşlar yıllar boyu kullanım
+          avantajı sağlaması ile bilinir.
         </p>
 
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/BAHCE BORDURU/bahce-borduru7.webp"
-            alt="20x50 Bahçe Bordürü"
+            src="images/KARE PARKE TAŞI/40x40-kare2.webp"
+            alt="Kare Parke Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
-            src="images/BAHCE BORDURU/bahce-borduru3.webp"
-            alt="20x50 Bahçe Bordürü"
+            src="images/KARE PARKE TAŞI/40x40-kare4.webp"
+            alt="Kare Parke Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
-            src="images/BAHCE BORDURU/bahce-borduru2.webp"
-            alt="20x50 Bahçe Bordürü"
+            src="images/KARE PARKE TAŞI/40x40-kare5.webp"
+            alt="Kare Parke Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
         </div>
@@ -46,13 +49,15 @@ const BahceBordürü = () => {
           Önemli Bilgiler
         </h2>
         <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
-          <li>Bahçe bordürü genellikle belediye parkları, özel mülklerve buna benzer alanlarda kullanılan beton ürünüdür.</li>
-          <li>Üst genişliği 9 cm alt genişliği 12 cm yüksekliği 20 cm ve uzunluğu 50 cm’dir. 9X12X20X50.</li>
-          <li>Çim bordürü veya limonluk bordür olarak da bilinir.</li>
-          <li>Bir palette 70 adet bahçe bordür taşı bulunmaktadır.</li>
-          <li>Bahçe bordürü ağırlığı 25 kg’dır.</li>
-          <li>Gri ve kırmızı gibi farklı renk seçenekleri mevcuttur.</li>
-          <li>Filmli ve düz yüzey olarak da üretilmektedir.</li>
+          <li>
+            Teknolojik makinalarla belirli standartlara uygun reçetelerle
+            üretilen beton ürünüdür.{" "}
+          </li>
+          <li>Kumlamalı ve ya mineralli olarak da üretilmektedir.</li>
+          <li>Metrekarede 6 adet 40X40 kare parke taşı bulunmaktadır.</li>
+          <li>Bir palette 10m2 40X40 kare parke bulunmaktadır.</li>
+          <li>4 cm- 6 cm olarak tercih edebilirsiniz.</li>
+          
         </ul>
 
         {/* Ölçü ve Boyut Bilgileri */}
@@ -91,13 +96,13 @@ const BahceBordürü = () => {
                   20
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  26
+                  4
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
                   36
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  22
+                  6
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
                   23
@@ -113,20 +118,24 @@ const BahceBordürü = () => {
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
-            src="images/BAHCE BORDURU/bahce-borduru1.webp"
-            alt="20x50 Bahçe Bordürü"
+            src="images/KARE PARKE TAŞI/30x30-kare-parke.webp"
+            alt="Kare Parke Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
-            src="images/BAHCE BORDURU/20x50.webp"
-            alt="20x50 Bahçe Bordürü"
+            src="images/KARE PARKE TAŞI/40x40-kare1.webp"
+            alt="Kare Parke Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
-         
+          <img
+            src="images/KARE PARKE TAŞI/40x40-kare.webp"
+            alt="Kare Parke Taşı"
+            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+          />
         </div>
       </div>
     </>
   );
 };
 
-export default BahceBordürü;
+export default KareParkeTasi;

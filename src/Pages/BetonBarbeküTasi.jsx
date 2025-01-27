@@ -19,12 +19,7 @@ const BetonBarbeküTasi = () => {
 
         {/* Açıklama */}
         <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
-          Hazır Beton Barbekü ürünümüz katkılı çimento ve içerisinde demir
-          donatılarla üretilmekte olup uzun ömürlü dış ve iç mekan için uygun
-          bir üründür. Renk seçenekleri kırmızı, gri, lacivert olarak üretilmektedir.
-          Beton barbekünün içerisinde ısıya dayanıklı ateş tuğlalar ile etin
-          pişirme süresi azaltarak bunun yanı sıra lezzetli bir keyif
-          sunmaktadır.
+          Hazır Beton Barbekü ürünümüz katkılı çimento ve içerisinde demir donatılarla üretilmekte olup uzun ömürlü dış ve iç mekan için uygun bir üründür.Beton barbekünün içerisinde ısıya dayanaklı ateş tuğlalar ile etin pişirme süresini azaltarak bunun yanı sıra lezzetli bir keyif sunmaktadır.
         </p>
 
         {/* Görseller */}
@@ -53,10 +48,19 @@ const BetonBarbeküTasi = () => {
         <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
           <li>Beton, dış etkenlere karşı oldukça dayanıklıdır</li>
           <li>Doğru bakım yapıldığında yıllarca kullanılabilir</li>
-          <li> Farklı tasarımlarla üretilebildiği için her türlü bahçe dekorasyonuna uyum sağlar.</li>
-          <li>Yüksek sıcaklıklara dayanıklıdır, bu sayede uzun süreli pişirme işlemleri için idealdir.</li>
-          <li>İsteğe göre farklı boyutlarda, şekillerde ve özelliklerde üretilebilir</li>
-          <li>Gri ve kırmızı gibi çeşitli renklerde üretimi mevcuttur.</li>
+          <li>
+            {" "}
+            Farklı tasarımlarla üretilebildiği için her türlü bahçe
+            dekorasyonuna uyum sağlar.
+          </li>
+          <li>
+            Yüksek sıcaklıklara dayanıklıdır, bu sayede uzun süreli pişirme
+            işlemleri için idealdir.
+          </li>
+          <li>
+            İsteğe göre farklı boyutlarda, şekillerde ve özelliklerde
+            üretilebilir
+          </li>
         </ul>
 
         {/* Ölçü ve Boyut Bilgileri */}
@@ -97,15 +101,9 @@ const BetonBarbeküTasi = () => {
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
                   115-90-180
                 </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  
-                </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  
-                </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  
-                </td>
+                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300"></td>
+                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300"></td>
+                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300"></td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
                   1
                 </td>
@@ -119,17 +117,17 @@ const BetonBarbeküTasi = () => {
           <img
             src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası6.webp"
             alt="Beton Barbekü Taşı"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası9.webp"
             alt="Beton Barbekü Taşı"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası8.webp"
             alt="Beton Barbekü Taşı"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
           />
         </div>
       </div>

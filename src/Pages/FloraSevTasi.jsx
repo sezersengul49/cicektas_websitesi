@@ -5,45 +5,45 @@ const FloraSevTasi = () => {
   return (
     <>
       <Helmet>
-        <title>Flora Şev Taşı- Çicek Taş Üst Yapı elemanları</title>
+        <title>Flora Şev Taşı - Terra Blok | Çicek Beton Elemanları</title>
         <meta
           name="description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Flora Şev Taşı (Terra Blok) ile kaliteli ve dayanıklı kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı çözümleri. Doğaya uyumlu beton elemanları ile peyzaj tasarımınızı zenginleştirin."
+        />
+        <meta
+          name="keywords"
+          content="flora şev taşı, terra blok, çicek beton elemanları, kaldırım taşı, barbekü taşı, kilitli taş, oluk taşı, beton blok, peyzaj tasarımı"
         />
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
         <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
-          Flora Şev Taşı-Terra Blok
+          Flora Şev Taşı - Terra Blok
         </h1>
 
         {/* Açıklama */}
         <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
-          Yüksek dayanıklı ve kaliteli Flora Şev Taşı (Terra Blok) mühendislik
-          olarak güvenlidir. Hatasız kitleme sistemi sayesinde, bloklar kolayca
-          yerleştirildiğinden hem zamandan hem maliyetten tasarruf sağlar.
-          Yuvarlak ve farklı renkleriyle tasarımlarınıza zenginlik katar. Dik
-          durumdan sığ eğimlere kadar değişebilen duvar açıları ve basamak
-          oluşumunda yarım ay şeklinde dizilebilmesi istenilen Flora Şev Taşı
-          (Terra Blok) geometriye uyum sağlar. Bitki seçiminde sizi özgür
-          bırakarak doğayı tamamlar.
+          Flora Şev Taşı (Terra Blok), yüksek dayanıklılığı ve mühendislik
+          güvenliğiyle peyzaj tasarımlarınıza değer katıyor. Hatasız kitleme
+          sistemi ile hızlı ve ekonomik çözüm sunuyor. Doğaya uyumlu farklı renk
+          seçenekleriyle estetik ve fonksiyonel duvarlar oluşturun.
         </p>
 
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
             src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası8.webp"
-            alt="Flora Şev Taşı"
+            alt="Flora Şev Taşı örneği, yuvarlak tasarım"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası2.webp"
-            alt="Flora Şev Taşı"
+            alt="Flora Şev Taşı, kırmızı ve yuvarlak"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası3.webp"
-            alt="Flora Şev Taşı"
+            alt="Flora Şev Taşı, farklı renk seçenekleri"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
         </div>
@@ -120,17 +120,17 @@ const FloraSevTasi = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
             src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası4.webp"
-            alt="Flora Şev Taşı"
+            alt="Flora Şev Taşı, farklı renk seçenekleri"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası5.webp"
-            alt="Flora Şev Taşı"
+            alt="Flora Şev Taşı, dayanıklı yapı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası1.webp"
-            alt="Flora Şev Taşı"
+            alt="Flora Şev Taşı, yuvarlak şekil"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
         </div>

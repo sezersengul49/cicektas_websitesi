@@ -5,10 +5,18 @@ const BetonBarbeküTasi = () => {
   return (
     <>
       <Helmet>
-        <title>Beton Barbekü Taşı- Çicek Taş Üst Yapı elemanları</title>
+        <title>Beton Barbekü Taşı - Dayanıklı ve Uzun Ömürlü Barbekü Çözümleri</title>
         <meta
           name="description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Beton barbekü taşı, dayanıklı ve uzun ömürlü dış mekan barbekü çözümleri. Çeşitli boyutlar ve tasarımlarla bahçenize estetik katın. Farklı model seçenekleriyle pişirme keyfinizi artırın!"
+        />
+        <meta
+          name="keywords"
+          content="beton barbekü taşı, barbekü taşı, dış mekan barbekü, dayanıklı barbekü taşları, bahçe barbeküsü, beton taşları, ısıya dayanıklı barbekü, barbekü taşları fiyat"
+        />
+        <meta
+          name="robots"
+          content="index, follow"
         />
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
@@ -19,24 +27,24 @@ const BetonBarbeküTasi = () => {
 
         {/* Açıklama */}
         <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
-          Hazır Beton Barbekü ürünümüz katkılı çimento ve içerisinde demir donatılarla üretilmekte olup uzun ömürlü dış ve iç mekan için uygun bir üründür.Beton barbekünün içerisinde ısıya dayanaklı ateş tuğlalar ile etin pişirme süresini azaltarak bunun yanı sıra lezzetli bir keyif sunmaktadır.
+          Hazır beton barbekü taşı, katkılı çimento ve demir donatılarla üretilmiş, uzun ömürlü ve ısıya dayanıklı dış mekan kullanımına uygun bir üründür. Beton barbekü taşı, ateşe dayanıklı özel tuğlalar sayesinde pişirme süresini azaltarak daha lezzetli yemekler hazırlamanıza olanak tanır.
         </p>
 
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
             src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası3.webp"
-            alt="Beton Barbekü Taşı"
+            alt="Beton Barbekü Taşı - Dış mekan barbekü taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası4.webp"
-            alt="Beton Barbekü Taşı"
+            alt="Beton Barbekü Taşı - Estetik dış mekan tasarımı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası5.webp"
-            alt="Beton Barbekü Taşı"
+            alt="Beton Barbekü Taşı - Dayanıklı barbekü taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
         </div>
@@ -46,21 +54,11 @@ const BetonBarbeküTasi = () => {
           Önemli Bilgiler
         </h2>
         <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
-          <li>Beton, dış etkenlere karşı oldukça dayanıklıdır</li>
-          <li>Doğru bakım yapıldığında yıllarca kullanılabilir</li>
-          <li>
-            {" "}
-            Farklı tasarımlarla üretilebildiği için her türlü bahçe
-            dekorasyonuna uyum sağlar.
-          </li>
-          <li>
-            Yüksek sıcaklıklara dayanıklıdır, bu sayede uzun süreli pişirme
-            işlemleri için idealdir.
-          </li>
-          <li>
-            İsteğe göre farklı boyutlarda, şekillerde ve özelliklerde
-            üretilebilir
-          </li>
+          <li>Beton barbekü taşı dış etkenlere karşı oldukça dayanıklıdır ve uzun yıllar kullanılabilir.</li>
+          <li>Farklı tasarımlar ve renk seçenekleri ile her türlü bahçe dekorasyonuna uyum sağlar.</li>
+          <li>Yüksek sıcaklıklara dayanıklı olup, uzun süreli pişirme işlemleri için idealdir.</li>
+          <li>İsteğe göre özel boyutlarda ve şekillerde üretilebilir.</li>
+          <li>Bakımı kolaydır ve dış mekan koşullarına uygun olarak tasarlanmıştır.</li>
         </ul>
 
         {/* Ölçü ve Boyut Bilgileri */}
@@ -116,32 +114,32 @@ const BetonBarbeküTasi = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
             src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası6.webp"
-            alt="Beton Barbekü Taşı"
-            className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
+            alt="Beton Barbekü Taşı - Estetik ve dayanıklı barbekü taşı"
+            className="w-full max-w-[350px] h-[400px]  rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası9.webp"
-            alt="Beton Barbekü Taşı"
-            className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
+            alt="Beton Barbekü Taşı - Dış mekan barbekü taşı"
+            className="w-full max-w-[350px] h-[400px]  rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası8.webp"
-            alt="Beton Barbekü Taşı"
+            alt="Beton Barbekü Taşı - Farklı tasarımlarda barbekü taşı"
             className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası2.webp"
-            alt="Beton Barbekü Taşı"
+            alt="Beton Barbekü Taşı - Bahçe dekorasyonuna uygun barbekü taşı"
             className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası7.webp"
-            alt="Beton Barbekü Taşı"
-            className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
+            alt="Beton Barbekü Taşı - Bahçe için ideal barbekü taşı"
+            className="w-full max-w-[350px] h-[400px]  rounded-lg shadow-lg mx-auto"
           />
-           <img
+          <img
             src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası1.webp"
-            alt="Beton Barbekü Taşı"
+            alt="Beton Barbekü Taşı - Estetik barbekü taşı"
             className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
           />
         </div>

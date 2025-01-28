@@ -5,59 +5,78 @@ const KareParkeTasi = () => {
   return (
     <>
       <Helmet>
-        <title>40x40 Kare Parke Taşı- Çicek Taş Üst Yapı elemanları</title>
+        <title>40x40 Kare Parke Taşı - Çicek Taş Üst Yapı Elemanları</title>
         <meta
           name="description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Beton parke taşı, kaldırım taşı, bahçe dekorasyonu ve daha fazlası hakkında bilgi edinin!"
+        />
+        <meta
+          name="keywords"
+          content="kare parke taşı, beton parke taşı, 40x40 parke taşı, kaldırım taşı, bahçe taşı, beton taş, interlocking stone, barbekü taşı"
+        />
+        <meta
+          property="og:title"
+          content="40x40 Kare Parke Taşı - Çicek Taş Üst Yapı Elemanları"
+        />
+        <meta
+          property="og:description"
+          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz."
+        />
+        <meta property="og:image" content="URL-to-image" />
+        <meta property="og:type" content="website" />
+        <link
+          rel="canonical"
+          href="https://www.orneksite.com/kare-parke-tasi"
         />
       </Helmet>
+
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
         <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
-          40x40 Kare Parke Taşı
+          40x40 Kare Parke Taşı - Sağlam ve Dayanıklı Beton Taşları
         </h1>
 
         {/* Açıklama */}
-        <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
-          Wash beton taşları doğal çakıl taşlarının bir araya getirilmesi
-          sonrasında presleme ve daha birçok işlem ile hazırlanan özel
-          taşlardır. Dayanıklılığı artırılan taşlar yıllar boyu kullanım
-          avantajı sağlaması ile bilinir.
+        <p className="text-lg text-gray-700 mb-6 px-6 md:px-14 leading-relaxed">
+          40x40 kare parke taşı, Çicek beton elemanları tarafından üretilen
+          sağlam ve uzun ömürlü taşlardır. Bu beton taşları, kaldırım taşı,
+          bahçe taşı ve barbekü taşı gibi pek çok kullanım alanına sahiptir.
+          Beton parke taşlarımız, yüksek dayanıklılıkları ile yıllarca sorunsuz
+          kullanılabilir.
         </p>
 
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
             src="images/KARE PARKE TAŞI/40x40-kare2.webp"
-            alt="Kare Parke Taşı"
+            alt="40x40 Kare Parke Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/KARE PARKE TAŞI/40x40-kare4.webp"
-            alt="Kare Parke Taşı"
+            alt="40x40 Kare Parke Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/KARE PARKE TAŞI/40x40-kare5.webp"
-            alt="Kare Parke Taşı"
+            alt="40x40 Kare Parke Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
         </div>
 
         {/* Önemli Bilgiler */}
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[110px]">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4 text-center">
           Önemli Bilgiler
         </h2>
-        <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
+        <ul className="list-disc pl-6 md:pl-14 text-gray-700 mb-10 leading-loose">
           <li>
-            Teknolojik makinalarla belirli standartlara uygun reçetelerle
-            üretilen beton ürünüdür.{" "}
+            Teknolojik makinelerle belirli standartlara uygun reçetelerle
+            üretilen beton ürünüdür.
           </li>
           <li>Kumlamalı ve ya mineralli olarak da üretilmektedir.</li>
-          <li>Metrekarede 6 adet 40X40 kare parke taşı bulunmaktadır.</li>
-          <li>Bir palette 10m2 40X40 kare parke bulunmaktadır.</li>
+          <li>Metrekarede 6 adet 40x40 kare parke taşı bulunmaktadır.</li>
+          <li>Bir palette 10m² 40x40 kare parke bulunmaktadır.</li>
           <li>4 cm- 6 cm olarak tercih edebilirsiniz.</li>
-          
         </ul>
 
         {/* Ölçü ve Boyut Bilgileri */}
@@ -66,50 +85,38 @@ const KareParkeTasi = () => {
         </h3>
 
         {/* Tablo */}
-        <div className="overflow-x-auto bg-white shadow-lg rounded-lg mb-6 md:mx-[100px] lg:mx-[95px]">
+        <div className="overflow-x-auto bg-white shadow-lg rounded-lg mb-6">
           <table className="min-w-full text-sm md:text-base table-auto text-gray-700 break-words border-collapse border border-gray-300">
             <thead className="bg-gray-200 text-gray-800">
               <tr>
-                <th className="px-4 py-2 md:px-6 md:py-4 text-left border border-gray-300">
+                <th className="px-4 py-2 text-left border border-gray-300">
                   Yükseklik (cm)
                 </th>
-                <th className="px-4 py-2 md:px-6 md:py-4 text-left border border-gray-300">
+                <th className="px-4 py-2 text-left border border-gray-300">
                   Genişlik (cm)
                 </th>
-                <th className="px-4 py-2 md:px-6 md:py-4 text-left border border-gray-300">
+                <th className="px-4 py-2 text-left border border-gray-300">
                   Uzunluk (cm)
                 </th>
-                <th className="px-4 py-2 md:px-6 md:py-4 text-left border border-gray-300">
+                <th className="px-4 py-2 text-left border border-gray-300">
                   M² (Adet)
                 </th>
-                <th className="px-4 py-2 md:px-6 md:py-4 text-left border border-gray-300">
+                <th className="px-4 py-2 text-left border border-gray-300">
                   Adet (kg)
                 </th>
-                <th className="px-4 py-2 md:px-6 md:py-4 text-left border border-gray-300">
+                <th className="px-4 py-2 text-left border border-gray-300">
                   Palet (Adet)
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr className="odd:bg-gray-50 even:bg-white">
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  20
-                </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  4
-                </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  36
-                </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  6
-                </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  23
-                </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  72
-                </td>
+                <td className="px-4 py-2 border border-gray-300">20</td>
+                <td className="px-4 py-2 border border-gray-300">4</td>
+                <td className="px-4 py-2 border border-gray-300">36</td>
+                <td className="px-4 py-2 border border-gray-300">6</td>
+                <td className="px-4 py-2 border border-gray-300">23</td>
+                <td className="px-4 py-2 border border-gray-300">72</td>
               </tr>
             </tbody>
           </table>
@@ -119,17 +126,17 @@ const KareParkeTasi = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
             src="images/KARE PARKE TAŞI/30x30-kare-parke.webp"
-            alt="Kare Parke Taşı"
+            alt="40x40 Kare Parke Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/KARE PARKE TAŞI/40x40-kare6.webp"
-            alt="Kare Parke Taşı"
+            alt="40x40 Kare Parke Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/KARE PARKE TAŞI/40x40-kare.webp"
-            alt="Kare Parke Taşı"
+            alt="40x40 Kare Parke Taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
         </div>

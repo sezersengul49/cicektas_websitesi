@@ -12,7 +12,7 @@ const OlukTasi = () => {
         />
         <meta
           name="keywords"
-          content="oluk taşı, drenaj taşı, bahçe taşları, yol taşı, kaldırım taşı, Çiçek Taş"
+          content="oluk taşı, drenaj taşı, bahçe taşları, yol taşı, kaldırım taşı, Çiçek Taş, 20x20 oluk taşı, 25x25 oluk taşı"
         />
         <meta name="author" content="Çiçek Taş" />
         <meta name="robots" content="index, follow" />
@@ -27,7 +27,9 @@ const OlukTasi = () => {
         <meta property="og:image" content="/images/OLUK TAŞI/oluk-tası3.webp" />
         <meta property="og:url" content="https://cicektas.com/oluk-tasi" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="https://cicektas.com/oluk-tasi" />
       </Helmet>
+
       <div className="container mx-auto p-6 md:p-10 bg-gray-100">
         {/* Başlık */}
         <h1 className="text-5xl font-extrabold text-center mb-10 text-gray-800">
@@ -61,7 +63,7 @@ const OlukTasi = () => {
                 {item.name}
               </span>
               <div className="overflow-hidden rounded-lg shadow-md">
-                <a href={item.href}  rel="noopener noreferrer">
+                <a href={item.href} rel="noopener noreferrer">
                   <img
                     src="images/OLUK TAŞI/oluk-tası6.webp"
                     alt={`${item.name} - kaliteli drenaj taşı`}

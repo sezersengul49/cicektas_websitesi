@@ -5,16 +5,21 @@ const KareParkeTasi = () => {
   return (
     <>
       <Helmet>
-        <title>30x30 Kare Parke Taşı- Çicek Taş Üst Yapı elemanları</title>
+        <title>30x30 Kare Parke Taşı- Çicek Taş Üst Yapı Elemanları</title>
         <meta
           name="description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Çicek beton elemanları olarak 30x30 kare parke taşı, kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modelleri ile kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
         />
+        <meta
+          name="keywords"
+          content="30x30 kare parke taşı, beton parke taşları, zemin döşemeleri, pratik parke, doğal taş, estetik zemin, dayanıklı parke taşı"
+        />
+        <meta name="robots" content="index, follow" />
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
         <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
-         30X30 Kare Parke Taşı
+          30X30 Kare Parke Taşı
         </h1>
 
         {/* Açıklama */}
@@ -99,13 +104,13 @@ const KareParkeTasi = () => {
                   20
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                 6
+                  6
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
                   36
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                 11
+                  11
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
                   23

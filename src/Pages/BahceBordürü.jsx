@@ -5,10 +5,18 @@ const BahceBordürü = () => {
   return (
     <>
       <Helmet>
-        <title>20x50 Bahçe Bordürü- Çicek Taş Üst Yapı elemanları</title>
+        <title>20x50 Bahçe Bordürü - Beton Çimen Taşı ve Bordür Taşı Çözümleri</title>
         <meta
           name="description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Bahçe bordürü, beton çimen taşı ve bordür taşı modellerimizle bahçenizi güzelleştirin. Kırmızı, gri ve mozaikli seçeneklerle dayanıklı çözümler. Uygun fiyatlarla hemen keşfedin!"
+        />
+        <meta
+          name="keywords"
+          content="bahçe bordürü, beton bordür, çimen bordürü,20x50 bahce bordürü bahçe taşları, bahçe düzenleme, bordür taşı, beton taş, dış mekan taşları, bahçe peyzaj"
+        />
+        <meta
+          name="robots"
+          content="index, follow"
         />
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
@@ -19,24 +27,24 @@ const BahceBordürü = () => {
 
         {/* Açıklama */}
         <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
-        Bahçe Bordürü ürünümüz genellikle bahçelerde kullanılan bahçe bordür ürünüdür, renk seçenekleri kırmızı, gri ve mozaikli olarak üretimi sağlanmaktadır. Beton Bordür kaldırım dan ayırmak için ve yolda biriken suların rögarlara iletmek amacıyla kullanılan beton dan yapılan yapıtlardır ayrıca bahçelerde topraklı zeminden yürüme yolu olarak ayırmak için de kullanılan çok tercih edilen bir üründür. Bahçe Bordür fiyatı ve bahçe bordürü ustalık fiyatı almak için bizlere bir telefon kadar yakın olduğunuzu hatırlatalım. 
+          Bahçe Bordürü, genellikle bahçelerde ve dış mekanlarda kullanılan dayanıklı beton yapıdır. Kırmızı, gri ve mozaikli seçenekleriyle estetik görünüme sahip olan bu ürün, kaldırım taşları ve yollar için mükemmel bir seçenektir. Çimen sınırlarını belirlemek ve topraklı alanları yola ayırmak için ideal bir çözümdür.
         </p>
 
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
             src="images/BAHCE BORDURU/bahce-borduru7.webp"
-            alt="20x50 Bahçe Bordürü"
+            alt="20x50 Bahçe Bordürü Kırmızı ve Gri Seçenekleriyle"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/BAHCE BORDURU/bahce-borduru3.webp"
-            alt="20x50 Bahçe Bordürü"
+            alt="Çimen sınır bordürü 20x50 beton taş"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/BAHCE BORDURU/bahce-borduru2.webp"
-            alt="20x50 Bahçe Bordürü"
+            alt="Mozaikli bahçe bordürü örneği"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
         </div>
@@ -46,13 +54,11 @@ const BahceBordürü = () => {
           Önemli Bilgiler
         </h2>
         <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
-          <li>Bahçe bordürü genellikle belediye parkları, özel mülklerve buna benzer alanlarda kullanılan beton ürünüdür.</li>
-          <li>Üst genişliği 9 cm alt genişliği 12 cm yüksekliği 20 cm ve uzunluğu 50 cm’dir. 9X12X20X50.</li>
-          <li>Çim bordürü veya limonluk bordür olarak da bilinir.</li>
-          <li>Bir palette 70 adet bahçe bordür taşı bulunmaktadır.</li>
-          <li>Bahçe bordürü ağırlığı 25 kg’dır.</li>
-          <li>Gri ve kırmızı gibi farklı renk seçenekleri mevcuttur.</li>
-          <li>Filmli ve düz yüzey olarak da üretilmektedir.</li>
+          <li>Bahçe bordürü genellikle belediye parkları, özel mülkler ve peyzaj alanlarında kullanılır.</li>
+          <li>Üst genişliği 9 cm, alt genişliği 12 cm, yüksekliği 20 cm ve uzunluğu 50 cm olan modeller mevcuttur.</li>
+          <li>Farklı renk seçenekleriyle, özellikle gri ve kırmızı, kullanıcılara estetik çözümler sunar.</li>
+          <li>Bir palette 70 adet bahçe bordürü taşı bulunmaktadır ve her biri 25 kg ağırlığındadır.</li>
+          <li>Filmli ve düz yüzey seçenekleri ile estetik ve dayanıklı alternatifler sunulmaktadır.</li>
         </ul>
 
         {/* Ölçü ve Boyut Bilgileri */}
@@ -114,15 +120,14 @@ const BahceBordürü = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
             src="images/BAHCE BORDURU/bahce-borduru1.webp"
-            alt="20x50 Bahçe Bordürü"
+            alt="Beton bahçe bordürü detaylı görünümü"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
           <img
             src="images/BAHCE BORDURU/20x50.webp"
-            alt="20x50 Bahçe Bordürü"
+            alt="Çimen sınırlama bordürü 20x50"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
-         
         </div>
       </div>
     </>

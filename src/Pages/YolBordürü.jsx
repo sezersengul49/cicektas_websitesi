@@ -5,11 +5,27 @@ const YolBordürü = () => {
   return (
     <>
       <Helmet>
-        <title>30x70 Yol Bordürü- Çicek Taş Üst Yapı elemanları</title>
+        <title>30x70 Yol Bordürü - Çicek Taş Üst Yapı Elemanları</title>
         <meta
           name="description"
           content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
         />
+        <meta
+          name="keywords"
+          content="yol bordürü, 30x70 yol bordürü, beton yol bordürü, belediye bordürü, yol taşları, kaldırım taşı, taş, beton elemanları"
+        />
+        <meta
+          property="og:title"
+          content="30x70 Yol Bordürü - Çicek Taş Üst Yapı Elemanları"
+        />
+        <meta
+          property="og:description"
+          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz."
+        />
+        <meta property="og:image" content="path-to-image.jpg" />
+        <meta property="og:url" content="your-page-url.com" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="your-page-url.com" />
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
@@ -21,7 +37,7 @@ const YolBordürü = () => {
         <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
           Karayolu Bordürü; cadde ve sokaklarda dayanımı yüksek yapısı ve
           kalitesiyle belli bir yükselti ile bölerek yolları ayırır. Her türlü
-          bahçe, site, park, yol, kaldırım , otopark gibi alanlarda
+          bahçe, site, park, yol, kaldırım, otopark gibi alanlarda
           uygulanabilir. Yol Bordürü fiyat bilgisi için iletişime geçiniz.
         </p>
 
@@ -32,11 +48,12 @@ const YolBordürü = () => {
             alt="30x70 yol Bordürü"
             className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
-          <img
-            src="images/BAHCE BORDURU/30x70-yol.webp"
+           <img
+            src="images/BAHCE BORDURU/30x70yol1.webp"
             alt="30x70 yol Bordürü"
             className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
+         
           <img
             src="images/BAHCE BORDURU/30x70-yol3.webp"
             alt="30x70 yol Bordürü"
@@ -49,13 +66,15 @@ const YolBordürü = () => {
           Önemli Bilgiler
         </h2>
         <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
+          <li>Belediye bordürü olarak da bilinmektedir.</li>
           <li>
-          Belediye bordürü olarak da bilinmektedir.
+            Üst genişliği 12 cm alt genişliği 15 cm yüksekliği 30 cm ve uzunluğu
+            70 cm’dir. 12X15X30X70
           </li>
           <li>
-          Üst genişliği 12 cm alt genişliği 15 cm yüksekliği 30 cm ve uzunluğu 70 cm’dir. 12X15X30X70
+            Belediyenin ana yollarda yaya kaldırımları için kullandığı beton
+            ürünüdür.
           </li>
-          <li>Belediyenin ana yollarda yaya kaldırımları için kullandığı beton ürünüdür.</li>
           <li>Bir palette 24 adet yol bordür taşı bulunmaktadır.</li>
           <li>Yol bordürü ağırlığı 70 kg’dır.</li>
           <li>Gri ve kırmızı gibi farklı renk seçenekleri mevcuttur.</li>
@@ -122,14 +141,14 @@ const YolBordürü = () => {
           <img
             src="images/BAHCE BORDURU/30x70-yol2.webp"
             alt="30x70 yol Bordürü"
-            className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full h-full object-contain rounded-lg shadow-lg mx-auto"
           />
-          <img
-            src="images/BAHCE BORDURU/30x70yol1.webp"
+           <img
+            src="images/BAHCE BORDURU/30x70-yol.webp"
             alt="30x70 yol Bordürü"
-            className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full h-full object-contain  rounded-lg shadow-lg mx-auto"
           />
-        
+         
         </div>
       </div>
     </>

@@ -9,9 +9,9 @@ const Header = () => {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <header className="relative bg-gradient-to-r from-blue-700 via-purple-700 to-pink-700 shadow-xl">
+    <header className="relative bg-white shadow-xl">
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-pink-700 animate-gradient-x"></div>
+      <div className="absolute inset-0 "></div>
       
       {/* Main Header */}
       <div className="flex justify-between items-center px-6 md:px-8 py-6 md:py-8 relative z-20">
@@ -26,7 +26,7 @@ const Header = () => {
               />
             </div>
           </Link>
-          <h1 className="text-white text-2xl md:text-4xl font-extrabold tracking-wide">
+          <h1 className=" text-2xl md:text-4xl font-bold text-black tracking-wide">
             ÇİÇEKTAŞ ÜST YAPI ELEMANLARI
           </h1>
         </div>
@@ -60,7 +60,7 @@ const Header = () => {
             isMenuOpen ? "block" : "hidden"
           } md:block absolute md:static top-[100px] right-0 bg-gray-800 text-white md:bg-transparent shadow-md md:shadow-none z-10 rounded-lg md:rounded-none`}
         >
-          <ul className="flex flex-col md:flex-row items-center gap-6 md:gap-8 text-lg font-semibold px-4 py-4 md:py-0">
+          <ul className="flex flex-col md:flex-row items-center gap-6 md:gap-8 text-lg font-semibold text-black px-4 py-4 md:py-0">
             <li
               className={`${
                 isActive("/")

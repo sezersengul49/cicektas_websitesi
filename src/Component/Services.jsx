@@ -64,7 +64,7 @@ const Services = () => {
           {[
             {
               title: "ŞEV TAŞI",
-              imgSrc: "images/ŞEV TAŞI/sev-tası6.webp",
+              imgSrc: "images/ŞEV TAŞI/sevtasi.webp",
               path: "/sev-tasi",
             },
             {

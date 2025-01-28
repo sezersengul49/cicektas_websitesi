@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 
 const Section = () => {
   const images = [
+    "images/bordur1.webp",
     "images/sev-tas.webp",
-    "images/anakapak3.webp",
     "images/flora-tas.webp",
     "images/anakapak4.webp",
     "images/oluk-tas.webp",

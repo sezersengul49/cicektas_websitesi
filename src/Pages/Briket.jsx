@@ -1,51 +1,60 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 
-const BahceBordürü = () => {
+const Briket = () => {
   return (
     <>
       <Helmet>
-        <title>20x50 Bahçe Bordürü - Beton Çimen Taşı ve Bordür Taşı Çözümleri</title>
+        <title>Briket- Çicek Taş Üst Yapı elemanları</title>
         <meta
           name="description"
-          content="Bahçe bordürü, beton çimen taşı ve bordür taşı modellerimizle bahçenizi güzelleştirin. Kırmızı, gri ve mozaikli seçeneklerle dayanıklı çözümler. Uygun fiyatlarla hemen keşfedin!"
+          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş, Briket ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
         />
         <meta
           name="keywords"
-          content="bahçe bordürü, beton bordür, çimen bordürü,20x50 bahce bordürü bahçe taşları, bahçe düzenleme, bordür taşı, beton taş, dış mekan taşları, bahçe peyzaj"
+          content="briket,şev taşı, toprak kayması engelleyici taş, peyzaj taşları, beton taş, yamaç duvarı, şev taşı fiyatları"
         />
         <meta
-          name="robots"
-          content="index, follow"
+          property="og:title"
+          content="Briket- Çicek Taş Üst Yapı elemanları"
         />
+        <meta
+          property="og:description"
+          content="Briket, toprak kaymasını önler, bahçe düzenlemeleri ve yamaçlarda kullanılır. Çicek beton elemanları kaliteli çözümler sunuyor."
+        />
+        <meta property="og:image" content="images/ŞEV TAŞI/sev-tası1.webp" />
+        <meta property="og:url" content="https://www.cicekbeton.com/sev-tasi" />
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
         <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
-          20X50 BAHÇE BORDÜRÜ
+          Briket
         </h1>
 
         {/* Açıklama */}
         <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
-          Bahçe Bordürü, genellikle bahçelerde ve dış mekanlarda kullanılan dayanıklı beton yapıdır. Kırmızı, gri ve mozaikli seçenekleriyle estetik görünüme sahip olan bu ürün, kaldırım taşları ve yollar için mükemmel bir seçenektir. Çimen sınırlarını belirlemek ve topraklı alanları yola ayırmak için ideal bir çözümdür.
+          Briket; duvar , bina , sığınak gibi alanlarda kullanılan briket taşı ,
+          sunduğu estetik görselliğin yanı sıra kolay kullanımı uygulayıcıların
+          dikkatini çeken beton yapı malzemesidir. Briket fiyatları için
+          firmamızla iletişime geçebilirsiniz.
         </p>
 
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/BAHCE BORDURU/bahce-borduru7.webp"
-            alt="20x50 Bahçe Bordürü Kırmızı ve Gri Seçenekleriyle"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            src="images/briket/briket1.webp"
+            alt="briket"
+            className="w-full max-w-[350px] h-[430px] rounded-lg shadow-lg mx-auto"
+          />
+           <img
+            src="images/briket/briket3.webp"
+            alt="briket"
+            className="w-full max-w-[350px] h-[430px] rounded-lg shadow-lg mx-auto"
           />
           <img
-            src="images/BAHCE BORDURU/bahce-borduru3.webp"
-            alt="Çimen sınır bordürü 20x50 beton taş"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
-          />
-          <img
-            src="images/BAHCE BORDURU/30x70yol4.webp"
-            alt="Mozaikli bahçe bordürü örneği"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            src="images/briket/briket4.webp"
+            alt="briket"
+            className="w-full max-w-[350px] h-[430px] rounded-lg shadow-lg mx-auto"
           />
         </div>
 
@@ -54,11 +63,11 @@ const BahceBordürü = () => {
           Önemli Bilgiler
         </h2>
         <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
-          <li>Bahçe bordürü genellikle belediye parkları, özel mülkler ve peyzaj alanlarında kullanılır.</li>
-          <li>Üst genişliği 9 cm, alt genişliği 12 cm, yüksekliği 20 cm ve uzunluğu 50 cm olan modeller mevcuttur.</li>
-          <li>Farklı renk seçenekleriyle, özellikle gri ve kırmızı, kullanıcılara estetik çözümler sunar.</li>
-          <li>Bir palette 70 adet bahçe bordürü taşı bulunmaktadır ve her biri 25 kg ağırlığındadır.</li>
-          <li>Filmli ve düz yüzey seçenekleri ile estetik ve dayanıklı alternatifler sunulmaktadır.</li>
+          <li>Genellikle bahçe duvarı, bina, sığınak, kulübe gibi mekanların inşasında kullanılır.</li>
+          <li>Ürünümüz pres beton baskı ile üretilmektedir.</li>
+          <li>15cm yüksekliğinde 15cm kalınlığında ve 33 cm genişliğindedir. 15X15X33</li>
+          <li>Metrekareye 20 adet briket taşı kullanılır.</li>
+          <li>Bir palette 150 adet beton briket bulunmaktadır.</li>
         </ul>
 
         {/* Ölçü ve Boyut Bilgileri */}
@@ -94,22 +103,22 @@ const BahceBordürü = () => {
             <tbody>
               <tr className="odd:bg-gray-50 even:bg-white">
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
+                  15
+                </td>
+                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
+                  15
+                </td>
+                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
+                  33
+                </td>
+                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
                   20
-                </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  26
-                </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  36
-                </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  22
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
                   23
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  72
+                  150
                 </td>
               </tr>
             </tbody>
@@ -118,25 +127,17 @@ const BahceBordürü = () => {
 
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <img
-            src="images/BAHCE BORDURU/bahce-borduru1.webp"
-            alt="Beton bahçe bordürü detaylı görünümü"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+        <img
+            src="images/briket/briket5.webp"
+            alt="briket"
+            className="w-full max-w-[350px] h-[430px] rounded-lg shadow-lg mx-auto"
           />
-          <img
-            src="images/BAHCE BORDURU/20x50.webp"
-            alt="Çimen sınırlama bordürü 20x50"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
-          />
-           <img
-            src="images/BAHCE BORDURU/30x70yol5.webp"
-            alt="Mozaikli bahçe bordürü örneği"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
-          />
+        
+        
         </div>
       </div>
     </>
   );
 };
 
-export default BahceBordürü;
+export default Briket;

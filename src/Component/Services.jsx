@@ -107,9 +107,14 @@ const Services = () => {
               imgSrc: "images/BAHCE BORDURU/yol-bordürü.webp",
               path: "/yol-borduru",
             },
+            {
+              title: "BRİKET",
+              imgSrc: "images/briket/briket2.webp",
+              path: "/briket",
+            },
           ].map((item, index) => (
             <div key={index} className="relative text-center cursor-pointer ">
-              <h3 className="text-lg md:text-xl font-extrabold mb-4 text-transparent bg-clip-text bg-black ">
+              <h3 className="text-lg md:text-xl font-semibold mb-4 text-transparent bg-clip-text bg-black ">
                 {item.title}
               </h3>
               <div className=" overflow-hidden max-w-[400px] h-[400px] rounded-lg shadow-lg group relative ">

@@ -24,6 +24,7 @@ import AboutUs from "./Component/AboutUs";
 import Contact from "./Component/Contact";
 import Gallery from "./Component/Gallery";
 import ErrorPage from "./Pages/ErrorPage";
+import Briket from "./Pages/Briket";
 
 const App = () => {
   return (
@@ -51,6 +52,7 @@ const App = () => {
           <Route path="/25x25-oluk-tasi" element={<OlukTasi3/>} />
           <Route path="/25x30-oluk-tasi" element={<OlukTasi4/>} />
           <Route path="/25x33-oluk-tasi" element={<OlukTasi5/>} />
+          <Route path="/briket" element={<Briket/>} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />

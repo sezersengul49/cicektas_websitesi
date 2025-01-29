@@ -103,6 +103,14 @@ const Footer = () => {
                 Oluk Taşları
               </a>
             </li>
+            <li>
+              <a
+                className="block bg-gray-700 px-4 py-2 rounded-lg hover:bg-gray-600 transition-all"
+                href="/briket"
+              >
+                Briket
+              </a>
+            </li>
           </ul>
         </div>
 

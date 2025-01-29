@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { SiSahibinden } from "react-icons/si";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +13,7 @@ const Header = () => {
       <div className="absolute inset-0 "></div>
       
       {/* Main Header */}
-      <div className="flex justify-between items-center px-6 md:px-8 py-6 md:py-8 relative z-20">
+      <div className="flex justify-between items-center px-6 md:px-8 py-4 md:py-4 relative z-20">
         {/* Logo Area */}
         <div className="flex items-center space-x-4 md:space-x-6">
           <Link to={"/"}>
@@ -34,7 +33,7 @@ const Header = () => {
         {/* Hamburger Menu Button */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden text-white focus:outline-none"
+          className="md:hidden text-black focus:outline-none"
         >
           <svg
             className="w-6 h-6"
@@ -58,7 +57,7 @@ const Header = () => {
         <nav
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } md:block absolute md:static top-[100px] right-0 bg-gray-800 text-white md:bg-transparent shadow-md md:shadow-none z-10 rounded-lg md:rounded-none`}
+          } md:block absolute md:static top-[100px] right-0 bg-white text-white md:bg-transparent shadow-md md:shadow-none z-10 rounded-lg md:rounded-none`}
         >
           <ul className="flex flex-col md:flex-row items-center gap-6 md:gap-8 text-lg font-semibold text-black px-4 py-4 md:py-0">
             <li

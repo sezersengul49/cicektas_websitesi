@@ -5,14 +5,14 @@ const BetonBarbeküTasi = () => {
   return (
     <>
       <Helmet>
-        <title>Beton Barbekü Taşı - Dayanıklı ve Uzun Ömürlü Barbekü Çözümleri</title>
+        <title>Beton Barbekü Taşı - Çiçek Taş Beton</title>
         <meta
           name="description"
           content="Beton barbekü taşı, dayanıklı ve uzun ömürlü dış mekan barbekü çözümleri. Çeşitli boyutlar ve tasarımlarla bahçenize estetik katın. Farklı model seçenekleriyle pişirme keyfinizi artırın!"
         />
         <meta
           name="keywords"
-          content="beton barbekü taşı, barbekü taşı, dış mekan barbekü, dayanıklı barbekü taşları, bahçe barbeküsü, beton taşları, ısıya dayanıklı barbekü, barbekü taşları fiyat"
+          content="beton barbekü taşı, barbekü taşı, dış mekan barbekü, dayanıklı barbekü taşları, bahçe barbeküsü, beton taşları, ısıya dayanıklı barbekü, barbekü taşları fiyat,çiçek taş beton"
         />
         <meta
           name="robots"

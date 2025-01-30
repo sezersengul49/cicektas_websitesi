@@ -5,29 +5,29 @@ const OlukTasi = () => {
   return (
     <>
       <Helmet>
-        <title>Oluk Taşları - Çiçek Taş Üst Yapı Elemanları</title>
+        <title>Oluk Taşları - Çiçek Taş Beton</title>
         <meta
           name="description"
           content="Oluk Taşları ile bahçe, kaldırım ve yol düzenlemesi için kaliteli ve dayanıklı drenaj çözümleri sunuyoruz. 20x20, 20x30, 25x25 gibi farklı ölçülerde oluk taşlarını şimdi keşfedin!"
         />
         <meta
           name="keywords"
-          content="oluk taşı, drenaj taşı, bahçe taşları, yol taşı, kaldırım taşı, Çiçek Taş, 20x20 oluk taşı, 25x25 oluk taşı"
+          content="oluk taşı, drenaj taşı, bahçe taşları, yol taşı, kaldırım taşı, Çiçek Taş, 20x20 oluk taşı, 25x25 oluk taşı,çiçek taş beton"
         />
-        <meta name="author" content="Çiçek Taş" />
+        <meta name="author" content="Çiçek Taş beton" />
         <meta name="robots" content="index, follow" />
         <meta
           property="og:title"
-          content="Oluk Taşları - Çiçek Taş Üst Yapı Elemanları"
+          content="Oluk Taşları - Çiçek Taş Beton"
         />
         <meta
           property="og:description"
           content="Oluk Taşları ile bahçe, kaldırım ve yol düzenlemesi için kaliteli ve dayanıklı drenaj çözümleri sunuyoruz. 20x20, 20x30, 25x25 gibi farklı ölçülerde oluk taşlarını şimdi keşfedin!"
         />
         <meta property="og:image" content="/images/OLUK TAŞI/oluk-tası3.webp" />
-        <meta property="og:url" content="https://cicektas.com/oluk-tasi" />
+        <meta property="og:url" content="https://cicektasbeton.com/oluk-tasi" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="canonical" href="https://cicektas.com/oluk-tasi" />
+        <link rel="canonical" href="https://cicektasbeton.com/oluk-tasi" />
       </Helmet>
 
       <div className="container mx-auto p-6 md:p-10 bg-gray-100">

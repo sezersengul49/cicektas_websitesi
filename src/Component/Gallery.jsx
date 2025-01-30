@@ -23,19 +23,26 @@ const Gallery = () => {
     { src: "images/BAHCE BORDURU/yol-bordürü.webp", alt: "Yol Bordürü" },
     { src: "images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası1.webp", alt: "Kilitli Parke Taşı" },
     { src: "images/BETON BARBEKÜ TAŞI/beton-barbekü-tası6.webp", alt: "Beton Barbekü Taşı" },
+    { src: "images/briket/briket1.webp", alt: "Beton Barbekü Taşı" },
+    { src: "images/briket/briket3.webp", alt: "Beton Barbekü Taşı" },
+    { src: "images/BAHCE BORDURU/30x70-yol.webp", alt: "Beton Barbekü Taşı" },
+    { src: "images/briket/briket5.webp", alt: "Beton Barbekü Taşı" },
+
+
+    
   ];
 
   return (
     <>
       <Helmet>
-        <title>Galeri - Çiçek Taş Üst Yapı Elemanları</title>
+        <title>Galeri - Çiçek Taş Beton</title>
         <meta
           name="description"
-          content="Çiçek Taş Üst Yapı Elemanları'nın taş ürünlerinden oluşan galerisini inceleyin. Farklı model ve çeşitlerdeki ürünlerimizi keşfedin."
+          content="Çiçek Taş Beton'un taş ürünlerinden oluşan galerisini inceleyin. Farklı model ve çeşitlerdeki ürünlerimizi keşfedin."
         />
         <meta
           name="keywords"
-          content="Çiçek Taş, galeri, taş ürünler, beton taşlar, dekoratif taşlar"
+          content="Çiçek Taş, galeri, taş ürünler, beton taşlar, dekoratif taşlar,çiçek taş beton"
         />
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">

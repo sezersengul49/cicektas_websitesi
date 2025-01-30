@@ -5,14 +5,14 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>İletişim - Çiçek Taş Üst Yapı Elemanları</title>
+        <title>İletişim - Çiçek Taş Beton</title>
         <meta
           name="description"
-          content="Çiçek Taş Üst Yapı Elemanları olarak bize ulaşın! Telefon, e-posta veya iletişim formu ile sorularınızı yanıtlıyoruz. Hızlı ve güvenilir çözümler için buradayız."
+          content="Çiçek Taş Betonı olarak bize ulaşın! Telefon, e-posta veya iletişim formu ile sorularınızı yanıtlıyoruz. Hızlı ve güvenilir çözümler için buradayız."
         />
         <meta
           name="keywords"
-          content="Çiçek Taş, iletişim, üst yapı elemanları, beton taşlar, müşteri hizmetleri"
+          content="Çiçek Taş, iletişim, üst yapı elemanları, beton taşlar, müşteri hizmetleri,çiçek taş beton"
         />
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">

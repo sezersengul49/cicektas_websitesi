@@ -8,28 +8,27 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Üst Yapı Elemanları Hizmetleri - Çicek Beton</title>
+        <title>Çicek Taş Beton - Kaliteli Taş Beton Ürünleri</title>
         <meta
           name="description"
-          content="Çicek Beton, kaliteli üst yapı elemanları ile çevre düzenleme ve peyzaj projelerinizde en iyi çözümleri sunar. Şev taşı, parke taşları, bordür taşları gibi ürünlerimizle güvenli ve dayanıklı yapılar inşa edin."
+          content="Çicek Taş Beton, kaliteli üst yapı elemanları ile çevre düzenleme ve peyzaj projelerinizde en iyi çözümleri sunar. Şev taşı, parke taşları, bordür taşları gibi ürünlerimizle güvenli ve dayanıklı yapılar inşa edin."
         />
         <meta
           name="keywords"
-          content="üst yapı elemanları, şev taşı, flora şev taşı, terra blok, beton bariyer, oluk taşları, bordür taşları, parke taşları, briket, çim taşı, park mantarı, beton dubalar"
+          content="üst yapı elemanları, şev taşı, flora şev taşı, terra blok, beton bariyer, oluk taşları, bordür taşları, parke taşları, briket, çim taşı, park mantarı, beton dubalar,çiçek taş beton,çiçek beton"
         />
         <meta
           property="og:title"
-          content="Üst Yapı Elemanları Hizmetleri - Çicek Beton"
+          content="Çicek Taş Beton - Kaliteli Taş Beton Ürünleri"
         />
         <meta
           property="og:description"
-          content="Çicek Beton, kaliteli üst yapı elemanları ile çevre düzenleme ve peyzaj projelerinizde en iyi çözümleri sunar. Şev taşı, parke taşları, bordür taşları gibi ürünlerimizle güvenli ve dayanıklı yapılar inşa edin."
+          content="Çicek Taş Beton, kaliteli üst yapı elemanları ile çevre düzenleme ve peyzaj projelerinizde en iyi çözümleri sunar. Şev taşı, parke taşları, bordür taşları gibi ürünlerimizle güvenli ve dayanıklı yapılar inşa edin."
         />
         <meta property="og:image" content="path-to-image.jpg" />
         <meta property="og:url" content="your-page-url.com/services" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="your-page-url.com/services" />
-
       </Helmet>
 
       <div className="py-8 px-4 md:px-14">
@@ -52,9 +51,8 @@ const Services = () => {
             terra blok, beton bariyer, oluk taşları, bordür taşları, parke
             taşları, briket, çim taşı, park mantarı ve beton dubalar gibi
             çeşitli ürünleri içerir. Ürünlerimiz genellikle buhar kürü ile
-            üretilmekte ve sağlamlık ile dayanıklılık sağlamaktadır. Çiçek Üst
-            Yapı Elemanları olarak uygun fiyat avantajlarıyla kaliteli ürünler
-            sunuyoruz.
+            üretilmekte ve sağlamlık ile dayanıklılık sağlamaktadır. Çiçek Taş
+            Beton olarak uygun fiyat avantajlarıyla kaliteli ürünler sunuyoruz.
           </p>
         </div>
 

@@ -5,14 +5,14 @@ const FloraSevTasi = () => {
   return (
     <>
       <Helmet>
-        <title>Flora Şev Taşı - Terra Blok | Çicek Beton Elemanları</title>
+        <title>Flora Şev Taşı - Terra Blok | Çicek Taş Beton</title>
         <meta
           name="description"
           content="Flora Şev Taşı (Terra Blok) ile kaliteli ve dayanıklı kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı çözümleri. Doğaya uyumlu beton elemanları ile peyzaj tasarımınızı zenginleştirin."
         />
         <meta
           name="keywords"
-          content="flora şev taşı, terra blok, çicek beton elemanları, kaldırım taşı, barbekü taşı, kilitli taş, oluk taşı, beton blok, peyzaj tasarımı"
+          content="flora şev taşı, terra blok, çicek beton elemanları, kaldırım taşı, barbekü taşı, kilitli taş, oluk taşı, beton blok, peyzaj tasarımı,çiçek taş beton"
         />
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">

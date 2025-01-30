@@ -5,14 +5,14 @@ const KareParkeTasi = () => {
   return (
     <>
       <Helmet>
-        <title>30x30 Kare Parke Taşı- Çicek Taş Üst Yapı Elemanları</title>
+        <title>30x30 Kare Parke Taşı- Çicek Taş Beton</title>
         <meta
           name="description"
-          content="Çicek beton elemanları olarak 30x30 kare parke taşı, kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modelleri ile kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Çicek taş beton elemanları olarak 30x30 kare parke taşı, kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modelleri ile kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
         />
         <meta
           name="keywords"
-          content="30x30 kare parke taşı, beton parke taşları, zemin döşemeleri, pratik parke, doğal taş, estetik zemin, dayanıklı parke taşı"
+          content="30x30 kare parke taşı, beton parke taşları, zemin döşemeleri, pratik parke, doğal taş, estetik zemin, dayanıklı parke taşı,çiçek taş beton"
         />
         <meta name="robots" content="index, follow" />
       </Helmet>

@@ -5,22 +5,22 @@ const YolBordürü = () => {
   return (
     <>
       <Helmet>
-        <title>30x70 Yol Bordürü - Çicek Taş Üst Yapı Elemanları</title>
+        <title>30x70 Yol Bordürü - Çicek Taş Beton</title>
         <meta
           name="description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
         />
         <meta
           name="keywords"
-          content="yol bordürü, 30x70 yol bordürü, beton yol bordürü, belediye bordürü, yol taşları, kaldırım taşı, taş, beton elemanları"
+          content="yol bordürü, 30x70 yol bordürü, beton yol bordürü, belediye bordürü, yol taşları, kaldırım taşı, taş, beton elemanları ,çiçek taş beton"
         />
         <meta
           property="og:title"
-          content="30x70 Yol Bordürü - Çicek Taş Üst Yapı Elemanları"
+          content="30x70 Yol Bordürü - Çicek Taş Beton"
         />
         <meta
           property="og:description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz."
+          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz."
         />
         <meta property="og:image" content="path-to-image.jpg" />
         <meta property="og:url" content="your-page-url.com" />

@@ -5,16 +5,16 @@ const OlukTasi2 = () => {
   return (
     <>
     <Helmet>
-      <title>Oluk Taşı 20x30 - Çicek Taş Üst Yapı Elemanları</title>
+      <title>Oluk Taşı 20x30 - Çicek Taş Beton</title>
       <meta
         name="description"
-        content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. 20x30 oluk taşı fiyatları için iletişime geçin!"
+        content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. 20x30 oluk taşı fiyatları için iletişime geçin!"
       />
       <meta
         name="keywords"
-        content="Oluk Taşı, 20x30 oluk taşı, beton elemanları, peyzaj taşı, yağmur oluk taşı, drenaj taşı, çicek beton"
+        content="Oluk Taşı, 20x30 oluk taşı, beton elemanları, peyzaj taşı, yağmur oluk taşı, drenaj taşı, çicek beton,çiçek taş beton"
       />
-      <meta property="og:title" content="Oluk Taşı 20x30 - Çicek Taş Üst Yapı Elemanları" />
+      <meta property="og:title" content="Oluk Taşı 20x30 - Çicek Taş Beton" />
       <meta
         property="og:description"
         content="20x30 Oluk Taşı ile bahçe ve kaldırım düzenlemelerinde yağmur suyu tahliyesi sağlanır. Çicek beton elemanları ile kalıcı ve dayanıklı çözümler!"
@@ -23,7 +23,7 @@ const OlukTasi2 = () => {
         property="og:image"
         content="images/OLUK TAŞI/oluk-tası6.webp"
       />
-      <meta property="og:url" content="https://www.cicekbeton.com/oluk-tasi-20x30" />
+      <meta property="og:url" content="https://www.cicektasbeton.com/oluk-tasi-20x30" />
       <meta name="robots" content="index, follow" />
     </Helmet>
 

@@ -9,7 +9,6 @@ const Section = () => {
     "images/oluk-tas.webp",
     "images/kareparke-tas.webp",
     "images/kilitli-tas.webp",
-    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -20,7 +19,7 @@ const Section = () => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 4000);
+    }, 2000);
     // Zamanlayıcıyı temizlemek için
     return () => clearInterval(interval);
   }, [images.length]);
@@ -38,7 +37,16 @@ const Section = () => {
   };
 
   return (
-    <section className="relative py-1  flex justify-center items-center">
+    <section className="relative py-1 flex justify-center items-center">
+      {/* Sol Ok */}
+      <button
+        onClick={handlePrev}
+        className="absolute left-0 z-10 bg-black bg-opacity-50 text-white p-2 px-4 rounded-full hover:bg-opacity-75 transition duration-300"
+        style={{ top: "50%", transform: "translateY(-50%)" ,fontSize:"24px" }}
+      >
+        &#10094; {/* Sol ok işareti */}
+      </button>
+
       {/* Fotoğraf */}
       <div className="w-full h-[550px] overflow-hidden flex justify-center items-center">
         <img
@@ -47,6 +55,15 @@ const Section = () => {
           alt={`Slide ${currentIndex + 1}`}
         />
       </div>
+
+      {/* Sağ Ok */}
+      <button
+        onClick={handleNext}
+        className="absolute right-0 z-10 bg-black bg-opacity-50 text-white p-2 px-4 rounded-full hover:bg-opacity-75 transition duration-300"
+        style={{ top: "50%", transform: "translateY(-50%)",fontSize:"24px" }}
+      >
+        &#10095; {/* Sağ ok işareti */}
+      </button>
     </section>
   );
 };

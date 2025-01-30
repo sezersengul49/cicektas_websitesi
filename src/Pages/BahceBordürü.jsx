@@ -5,14 +5,14 @@ const BahceBordürü = () => {
   return (
     <>
       <Helmet>
-        <title>20x50 Bahçe Bordürü - Beton Çimen Taşı ve Bordür Taşı Çözümleri</title>
+        <title>20x50 Bahçe Bordürü - Çiçek Taş Beton</title>
         <meta
           name="description"
           content="Bahçe bordürü, beton çimen taşı ve bordür taşı modellerimizle bahçenizi güzelleştirin. Kırmızı, gri ve mozaikli seçeneklerle dayanıklı çözümler. Uygun fiyatlarla hemen keşfedin!"
         />
         <meta
           name="keywords"
-          content="bahçe bordürü, beton bordür, çimen bordürü,20x50 bahce bordürü bahçe taşları, bahçe düzenleme, bordür taşı, beton taş, dış mekan taşları, bahçe peyzaj"
+          content="bahçe bordürü, beton bordür, çimen bordürü,20x50 bahce bordürü bahçe taşları, bahçe düzenleme, bordür taşı, beton taş, dış mekan taşları, bahçe peyzaj,çiçek taş beton"
         />
         <meta
           name="robots"

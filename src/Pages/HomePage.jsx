@@ -6,10 +6,10 @@ import Services from "../Component/Services";
 const HomePage = () => (
   <>
     <Helmet>
-      <title>Kilitli taş, Şev Taşı- Çicek beton elemanları</title>
+      <title>Kilitli taş, Şev Taşı- Çiçek Taş Beton</title>
       <meta
         name="description"
-        content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+        content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
       />
     </Helmet>
     <Section />

@@ -5,17 +5,17 @@ const OlukTasi5 = () => {
   return (
     <>
       <Helmet>
-        <title>Oluk Taşı 25x33- Çicek Taş Üst Yapı elemanları</title>
+        <title>Oluk Taşı 25x33- Çicek Taş Beton</title>
         <meta
           name="description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
         />
         <meta
           name="keywords"
-          content="oluk taşı, 25x33 oluk taşı, yağmur oluk taşı, drenaj taşları, peyzaj çözümleri"
+          content="oluk taşı, 25x33 oluk taşı, yağmur oluk taşı, drenaj taşları, peyzaj çözümleri,çiçek taş beton"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.example.com/oluk-tasi-25x33" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/oluk-tasi-25x33" />
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}

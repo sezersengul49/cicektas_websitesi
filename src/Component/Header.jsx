@@ -17,16 +17,16 @@ const Header = () => {
         {/* Logo Area */}
         <div className="flex items-center space-x-4 md:space-x-6">
           <Link to={"/"}>
-            <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-gradient-to-br from-yellow-500 to-orange-600 p-2 flex items-center justify-center shadow-xl">
+            <div className="w-[80px] h-[80px] md:w-24 md:h-24 rounded-full flex items-center justify-center shadow-xl">
               <img
                 className="w-full h-full object-contain rounded-full"
-                src="/logo.jpeg"
-                alt="Çiçektaş Logo"
+                src="images/logo1.webp"
+                alt="Çiçektaş beton Logo"
               />
             </div>
           </Link>
           <h1 className=" text-2xl md:text-4xl font-bold text-black tracking-wide">
-            ÇİÇEKTAŞ ÜST YAPI ELEMANLARI
+            ÇİÇEK TAŞ BETON
           </h1>
         </div>
 

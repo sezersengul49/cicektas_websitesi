@@ -5,29 +5,29 @@ const OlukTasi1 = () => {
   return (
     <>
     <Helmet>
-      <title>Oluk Taşı 20x20 - Çiçek Taş Üst Yapı Elemanları</title>
+      <title>Oluk Taşı 20x20 - Çiçek Taş Beton</title>
       <meta
         name="description"
-        content="Çiçek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. 20x20 oluk taşı hakkında detaylar için şimdi keşfedin!"
+        content="Çiçek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. 20x20 oluk taşı hakkında detaylar için şimdi keşfedin!"
       />
       <meta
         name="keywords"
-        content="20x20 oluk taşı, oluk taşı, drenaj taşı, kaldırım taşı, bahçe taşı, Çiçek Taş, beton elemanları"
+        content="20x20 oluk taşı, oluk taşı, drenaj taşı, kaldırım taşı, bahçe taşı, Çiçek Taş, beton elemanları Çiçek Taş Beton"
       />
       <meta name="author" content="Çiçek Taş" />
       <meta name="robots" content="index, follow" />
       <meta
         property="og:title"
-        content="Oluk Taşı 20x20 - Çiçek Taş Üst Yapı Elemanları"
+        content="Oluk Taşı 20x20 - Çiçek Taş Beton"
       />
       <meta
         property="og:description"
         content="Çiçek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. 20x20 oluk taşı hakkında detaylar için şimdi keşfedin!"
       />
       <meta property="og:image" content="/images/OLUK TAŞI/oluk-tası6.webp" />
-      <meta property="og:url" content="https://cicektas.com/oluk-tasi/20x20" />
+      <meta property="og:url" content="https://cicektasbeton.com/oluk-tasi/20x20" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="canonical" href="https://cicektas.com/oluk-tasi/20x20" />
+      <link rel="canonical" href="https://cicektasbeton.com/oluk-tasi/20x20" />
     </Helmet>
     
     <div className="container mx-auto p-6 md:p-10 bg-gray-50">

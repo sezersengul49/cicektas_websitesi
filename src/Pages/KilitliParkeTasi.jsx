@@ -5,23 +5,23 @@ const KilitliParkeTasi = () => {
   return (
     <>
       <Helmet>
-        <title>Kilitli Parke Taşı - Çicek Taş Üst Yapı Elemanları</title>
+        <title>Kilitli Parke Taşı - Çicek Taş Beton</title>
         <meta
           name="description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
         />
         <meta
           name="keywords"
-          content="kilitli parke taşı, kaldırım taşı, beton parke taşı, kilitli taş, dış mekan taşı, dayanıklı parke, dekoratif parke taşı, şehir içi taş"
+          content="kilitli parke taşı, kaldırım taşı, beton parke taşı, kilitli taş, dış mekan taşı, dayanıklı parke, dekoratif parke taşı, şehir içi taş,çiçek taş beton"
         />
-        <meta property="og:title" content="Kilitli Parke Taşı - Çicek Taş Üst Yapı Elemanları" />
+        <meta property="og:title" content="Kilitli Parke Taşı - Çicek Taş Beton" />
         <meta
           property="og:description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
         />
         <meta property="og:image" content="URL-to-image" />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://www.orneksite.com/kilitli-parke-tasi" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/kilitli-parke-tasi" />
       </Helmet>
 
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">

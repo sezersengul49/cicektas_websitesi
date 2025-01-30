@@ -5,25 +5,25 @@ const SevTasi = () => {
   return (
     <>
       <Helmet>
-        <title>Şev Taşı- Çicek Taş Üst Yapı elemanları</title>
+        <title>Şev Taşı- Çicek Taş Beton</title>
         <meta
           name="description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Çicek Taş beton  olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
         />
         <meta
           name="keywords"
-          content="şev taşı, toprak kayması engelleyici taş, peyzaj taşları, beton taş, yamaç duvarı, şev taşı fiyatları"
+          content="şev taşı, toprak kayması engelleyici taş, peyzaj taşları, beton taş, yamaç duvarı, şev taşı fiyatları çiçek taş beton"
         />
         <meta
           property="og:title"
-          content="Şev Taşı- Çicek Taş Üst Yapı elemanları"
+          content="Şev Taşı- Çicek Taş Beton"
         />
         <meta
           property="og:description"
-          content="Şev Taşı, toprak kaymasını önler, bahçe düzenlemeleri ve yamaçlarda kullanılır. Çicek beton elemanları kaliteli çözümler sunuyor."
+          content="Şev Taşı, toprak kaymasını önler, bahçe düzenlemeleri ve yamaçlarda kullanılır. Çicek taş beton kaliteli çözümler sunuyor."
         />
         <meta property="og:image" content="images/ŞEV TAŞI/sev-tası1.webp" />
-        <meta property="og:url" content="https://www.cicekbeton.com/sev-tasi" />
+        <meta property="og:url" content="https://www.cicektasbeton.com/sev-tasi" />
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}

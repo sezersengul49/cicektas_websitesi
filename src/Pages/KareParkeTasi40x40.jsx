@@ -5,28 +5,28 @@ const KareParkeTasi = () => {
   return (
     <>
       <Helmet>
-        <title>40x40 Kare Parke Taşı - Çicek Taş Üst Yapı Elemanları</title>
+        <title>40x40 Kare Parke Taşı - Çicek Taş Beton</title>
         <meta
           name="description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Beton parke taşı, kaldırım taşı, bahçe dekorasyonu ve daha fazlası hakkında bilgi edinin!"
+          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Beton parke taşı, kaldırım taşı, bahçe dekorasyonu ve daha fazlası hakkında bilgi edinin!"
         />
         <meta
           name="keywords"
-          content="kare parke taşı, beton parke taşı, 40x40 parke taşı, kaldırım taşı, bahçe taşı, beton taş, interlocking stone, barbekü taşı"
+          content="kare parke taşı, beton parke taşı, 40x40 parke taşı, kaldırım taşı, bahçe taşı, beton taş, interlocking stone, barbekü taşı,çiçek taş beton"
         />
         <meta
           property="og:title"
-          content="40x40 Kare Parke Taşı - Çicek Taş Üst Yapı Elemanları"
+          content="40x40 Kare Parke Taşı - Çicek Taş Beton"
         />
         <meta
           property="og:description"
-          content="Çicek beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz."
+          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz."
         />
         <meta property="og:image" content="URL-to-image" />
         <meta property="og:type" content="website" />
         <link
           rel="canonical"
-          href="https://www.orneksite.com/kare-parke-tasi"
+          href="https://www.cicektasbeton.com/kare-parke-tasi"
         />
       </Helmet>
 

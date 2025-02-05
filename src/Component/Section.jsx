@@ -2,13 +2,12 @@ import React, { useState, useEffect } from "react";
 
 const Section = () => {
   const images = [
-    "images/bordur1.webp",
-    "images/sev-tas.webp",
-    "images/flora-tas.webp",
-    "images/anakapak4.webp",
-    "images/oluk-tas.webp",
-    "images/kareparke-tas.webp",
-    "images/kilitli-tas.webp",
+    "/bordur1.webp",
+    "/kilittasi1.webp",
+    "/sev-tas.webp",
+    "/flora-tas.webp",
+   "/kareparke-tas.webp",
+    "/kilitli-tas.webp",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

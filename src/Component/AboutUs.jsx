@@ -11,7 +11,7 @@ const AboutUs = () => {
       {/* Hakkımızda İçeriği */}
       <div className="bg-gray-100 p-6 md:p-8 rounded-lg shadow-md">
         <p className="text-gray-700 leading-relaxed text-lg mb-4">
-          ÇiçekTaş Üst Yapı Elemanları olarak, uzun yıllardan beri sektörde faaliyet göstermekteyiz ve 
+          ÇiçekTaş Taş Beton Elemanları olarak, uzun yıllardan beri sektörde faaliyet göstermekteyiz ve 
           peyzaj ile çevre düzenleme çalışmalarında kullanılan taş çeşitleri konusunda uzmanlaşmış durumdayız. 
           Yüksek kaliteli ve dayanıklı ürünlerimizle, müşterilerimizin projelerine değer katmayı hedefliyoruz.
         </p>

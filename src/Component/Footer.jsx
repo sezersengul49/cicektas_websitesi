@@ -15,10 +15,11 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center p-4 bg-gray-800 rounded-lg hover:bg-red-500 transition-all shadow-lg"
-          >
+           >
+              Sahibinden'de İlanlarımı Görüntüle
             <SiSahibinden size={50} style={{ color: "yellow" }} />
             <span className="mt-2 text-base font-semibold text-white hover:underline">
-              İlanlarımızı Görüntüleyin
+           
             </span>
           </a>
         </div>

@@ -5,20 +5,29 @@ const KareParkeTasi = () => {
   return (
     <>
       <Helmet>
-        <title>30x30 Kare Parke Taşı- Çicek Taş Beton</title>
+        <title>30x30 Kare Parke Taşı - Çiçek Taş Beton Elemanları, Parke Taşı,Taş</title>
         <meta
           name="description"
-          content="Çicek taş beton elemanları olarak 30x30 kare parke taşı, kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modelleri ile kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="30x30 Kare Parke Taşı, pratik, hızlı uygulanabilir ve tamiratı kolay zemin döşemeleri için ideal bir çözümdür. Çiçek Taş Beton olarak kaliteli ve dayanıklı parke taşları sunuyoruz."
         />
         <meta
           name="keywords"
-          content="30x30 kare parke taşı, beton parke taşları, zemin döşemeleri, pratik parke, doğal taş, estetik zemin, dayanıklı parke taşı,çiçek taş beton"
+          content="30x30 kare parke taşı, beton parke taşları, zemin döşemeleri, pratik parke, doğal taş, estetik zemin, dayanıklı parke taşı, çiçek taş beton"
         />
+        <meta property="og:title" content="30x30 Kare Parke Taşı - Çiçek Taş Beton" />
+        <meta
+          property="og:description"
+          content="30x30 Kare Parke Taşı, pratik, hızlı uygulanabilir ve tamiratı kolay zemin döşemeleri için ideal bir çözümdür. Çiçek Taş Beton olarak kaliteli ve dayanıklı parke taşları sunuyoruz."
+        />
+        <meta property="og:image" content="https://www.cicektasbeton.com/30x30karetas.webp" />
+        <meta property="og:url" content="https://www.cicektasbeton.com/30x30-kare-parke-tasi" />
         <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/30x30-kare-parke-tasi" />
       </Helmet>
+
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
-        <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
+        <h1 className="text-3xl font-extrabold text-center mb-6 text-gray-900">
           30X30 Kare Parke Taşı
         </h1>
 
@@ -34,19 +43,22 @@ const KareParkeTasi = () => {
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/KARE PARKE TAŞI/30x30-kare-parke.webp"
-            alt="Kare Parke Taşı"
+            src="/30x30karetas.webp"
+            alt="30x30 Kare Parke Taşı - Dayanıklı ve estetik zemin döşemesi"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/KARE PARKE TAŞI/kare-parke-tası9.webp"
-            alt="Kare Parke Taşı"
+            src="/kare-parke-tası9.webp"
+            alt="30x30 Kare Parke Taşı - Pratik ve hızlı uygulanabilir"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/KARE PARKE TAŞI/kare-parke-tası4.webp"
-            alt="Kare Parke Taşı"
+            src="/kare-parke-tası4.webp"
+            alt="30x30 Kare Parke Taşı - Doğa dostu ve ekonomik"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
 
@@ -126,24 +138,34 @@ const KareParkeTasi = () => {
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
-            src="images/KARE PARKE TAŞI/30x30-kare4.webp"
-            alt="Kare Parke Taşı"
+            src="/30x30-kare4.webp"
+            alt="30x30 Kare Parke Taşı - Çeşitli renk ve desen seçenekleri"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/KARE PARKE TAŞI/30x30-kare2.webp"
-            alt="Kare Parke Taşı"
+            src="/30x30-kare2.webp"
+            alt="30x30 Kare Parke Taşı - Estetik ve dayanıklı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/KARE PARKE TAŞI/30x30-kare3.webp"
-            alt="Kare Parke Taşı"
+            src="/30x30-kare3.webp"
+            alt="30x30 Kare Parke Taşı - Doğa dostu ve ekonomik"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
-           <img
-            src="images/KARE PARKE TAŞI/40x40-kare6.webp"
-            alt="40x40 Kare Parke Taşı"
+          <img
+            src="/40x40-kare6.webp"
+            alt="40x40 Kare Parke Taşı - Dayanıklı ve pratik"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
+          />
+          <img
+            src="/30x30karetas1.webp"
+            alt="30x30 Kare Parke Taşı - Çiçek Taş Beton kalitesi"
+            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
       </div>

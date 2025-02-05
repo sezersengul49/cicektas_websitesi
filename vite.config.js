@@ -1,20 +1,8 @@
-import {defineConfig} from 'vite'
-import react from '@vitejs/plugin-react'
-import sitemapPlugin from 'vite-plugin-sitemap';
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),
-    sitemapPlugin({
-      hostname:"https://yourwebsite.com",
-      routes: [
-        '/',
-        '/about',
-        '/contact',
-      ],
-    })
-  ],
+  plugins: [react()], // sitemap eklentisi kaldırıldı
   base: '/',
   build: {
     outDir: 'dist',

@@ -1,0 +1,21 @@
+{
+    "name": "Çiçek Taş Beton",
+    "short_name": "Çiçek Taş",
+    "description": "Şev taşı, parke taşı, bordür ve oluk taşlarında kaliteli üretim ve hızlı teslimat!",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }

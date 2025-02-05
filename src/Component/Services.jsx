@@ -1,14 +1,15 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Services = () => {
-  const navigate = useNavigate();
-
   return (
     <>
       <Helmet>
-        <title>Çicek Taş Beton - Kaliteli Taş Beton Ürünleri</title>
+        <title>
+          Çiçek Taş Beton | Şev Taşı, Parke Taşı, Flora Şev Taşı Bordür ve Oluk
+          Taşları
+        </title>
         <meta
           name="description"
           content="Çicek Taş Beton, kaliteli üst yapı elemanları ile çevre düzenleme ve peyzaj projelerinizde en iyi çözümleri sunar. Şev taşı, parke taşları, bordür taşları gibi ürünlerimizle güvenli ve dayanıklı yapılar inşa edin."
@@ -25,12 +26,17 @@ const Services = () => {
           property="og:description"
           content="Çicek Taş Beton, kaliteli üst yapı elemanları ile çevre düzenleme ve peyzaj projelerinizde en iyi çözümleri sunar. Şev taşı, parke taşları, bordür taşları gibi ürünlerimizle güvenli ve dayanıklı yapılar inşa edin."
         />
-        <meta property="og:image" content="path-to-image.jpg" />
-        <meta property="og:url" content="your-page-url.com/services" />
+        <meta
+          property="og:image"
+          content="https://www.cicektasbeton.com/sevtasi.webp"
+        />
+        <meta
+          property="og:url"
+          content="https://www.cicektasbeton.com/services"
+        />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="your-page-url.com/services" />
+        
       </Helmet>
-
       <div className="py-8 px-4 md:px-14">
         {/* Ana Başlık */}
         <h1 className="text-center text-3xl md:text-4xl font-extrabold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-red-600">
@@ -62,52 +68,52 @@ const Services = () => {
           {[
             {
               title: "ŞEV TAŞI",
-              imgSrc: "images/ŞEV TAŞI/sevtasi.webp",
+              imgSrc: "/sevtasi9.webp",
               path: "/sev-tasi",
             },
             {
               title: "OLUK TAŞLARI",
-              imgSrc: "images/OLUK TAŞI/oluk-tası6.webp",
+              imgSrc: "/oluk-tası6.webp",
               path: "/oluk-tasi",
             },
             {
               title: "30X30 KARE PARKE TAŞI",
-              imgSrc: "images/KARE PARKE TAŞI/30x30-kare-parke.webp",
+              imgSrc: "/30x30karetas.webp",
               path: "/30x30-kare-parke-tasi",
             },
             {
               title: "KİLİTLİ PARKE TAŞI",
-              imgSrc: "images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası7.webp",
+              imgSrc: "/kilitli-parke-tası7.webp",
               path: "/kilitli-parke-tasi",
             },
             {
               title: "40X40 KARE PARKE TAŞI",
-              imgSrc: "images/KARE PARKE TAŞI/30x30-kare-parke.webp",
+              imgSrc: "/30x30-kare-parke.webp",
               path: "/40x40-kare-parke-tasi",
             },
             {
               title: "FLORA ŞEV TAŞI-TERRA BLOK",
-              imgSrc: "images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası8.webp",
+              imgSrc: "/flora-sev-tası8.webp",
               path: "/flora-sev-tasi",
             },
             {
               title: "BETON BARBEKÜ TAŞI",
-              imgSrc: "images/BETON BARBEKÜ TAŞI/beton-barbekü-tası3.webp",
+              imgSrc: "/beton-barbekü-tası3.webp",
               path: "/beton-barbeku-tasi",
             },
             {
               title: "20X50 BAHÇE BORDÜRÜ",
-              imgSrc: "images/BAHCE BORDURU/bahce-borduru7.webp",
+              imgSrc: "/bahce-borduru7.webp",
               path: "/bahce-borduru",
             },
             {
               title: "30X70 YOL BORDÜRÜ",
-              imgSrc: "images/BAHCE BORDURU/yol-bordürü.webp",
+              imgSrc: "/yol-bordürü.webp",
               path: "/yol-borduru",
             },
             {
               title: "BRİKET",
-              imgSrc: "images/briket/briket2.webp",
+              imgSrc: "/briket2.webp",
               path: "/briket",
             },
           ].map((item, index) => (
@@ -116,10 +122,11 @@ const Services = () => {
                 {item.title}
               </h3>
               <div className=" overflow-hidden max-w-[400px] h-[400px] rounded-lg shadow-lg group relative ">
-                <a href={item.path} aria-label={item.title} className="block">
+                <a href={item.path} className="block">
                   <img
                     src={item.imgSrc}
                     alt={`${item.title} - yüksek kaliteli ürünler`}
+                    loading="lazy"
                     className="w-full max-w-[400px] h-[400px] rounded-lg shadow-lg mx-auto transition-transform duration-300 group-hover:scale-105"
                   />
                   {/* Hover İçin Animasyonlu Yazı */}

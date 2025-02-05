@@ -5,19 +5,29 @@ const FloraSevTasi = () => {
   return (
     <>
       <Helmet>
-        <title>Flora Şev Taşı - Terra Blok | Çicek Taş Beton</title>
+        <title>Flora Şev Taşı - Terra Blok | Çiçek Taş Beton Elemanları ,Şev Taşı</title>
         <meta
           name="description"
           content="Flora Şev Taşı (Terra Blok) ile kaliteli ve dayanıklı kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı çözümleri. Doğaya uyumlu beton elemanları ile peyzaj tasarımınızı zenginleştirin."
         />
         <meta
           name="keywords"
-          content="flora şev taşı, terra blok, çicek beton elemanları, kaldırım taşı, barbekü taşı, kilitli taş, oluk taşı, beton blok, peyzaj tasarımı,çiçek taş beton"
+          content="flora şev taşı, terra blok, çiçek taş beton elemanları, kaldırım taşı, barbekü taşı, kilitli taş, oluk taşı, beton blok, peyzaj tasarımı, çiçek taş beton"
         />
+        <meta property="og:title" content="Flora Şev Taşı - Terra Blok | Çiçek Taş Beton" />
+        <meta
+          property="og:description"
+          content="Flora Şev Taşı (Terra Blok) ile kaliteli ve dayanıklı kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı çözümleri. Doğaya uyumlu beton elemanları ile peyzaj tasarımınızı zenginleştirin."
+        />
+        <meta property="og:image" content="https://www.cicektasbeton.com/flora-sev-tası8.webp" />
+        <meta property="og:url" content="https://www.cicektasbeton.com/flora-sev-tasi" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/flora-sev-tasi" />
       </Helmet>
+
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
-        <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
+        <h1 className="text-3xl font-extrabold text-center mb-6 text-gray-900">
           Flora Şev Taşı - Terra Blok
         </h1>
 
@@ -32,19 +42,22 @@ const FloraSevTasi = () => {
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası8.webp"
+            src="/flora-sev-tası8.webp"
             alt="Flora Şev Taşı örneği, yuvarlak tasarım"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası2.webp"
+            src="/flora-sev-tası2.webp"
             alt="Flora Şev Taşı, kırmızı ve yuvarlak"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası3.webp"
+            src="/flora-sev-tası3.webp"
             alt="Flora Şev Taşı, farklı renk seçenekleri"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
 
@@ -119,19 +132,22 @@ const FloraSevTasi = () => {
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
-            src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası4.webp"
+            src="/flora-sev-tası4.webp"
             alt="Flora Şev Taşı, farklı renk seçenekleri"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası5.webp"
+            src="/flora-sev-tası5.webp"
             alt="Flora Şev Taşı, dayanıklı yapı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/FLORA ŞEV TAŞI-TERRA BLOK/flora-sev-tası1.webp"
+            src="/flora-sev-tası1.webp"
             alt="Flora Şev Taşı, yuvarlak şekil"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
       </div>

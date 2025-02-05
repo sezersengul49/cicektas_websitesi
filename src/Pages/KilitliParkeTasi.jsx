@@ -1,32 +1,34 @@
-import React from 'react'
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const KilitliParkeTasi = () => {
   return (
     <>
       <Helmet>
-        <title>Kilitli Parke Taşı - Çicek Taş Beton</title>
+        <title>Kilitli Parke Taşı - Dayanıklı ve Estetik Zemin Çözümleri | Çiçek Taş Beton</title>
         <meta
           name="description"
-          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Kilitli Parke Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile zemin döşemelerinizi güçlendirin. Kaldırım taşı, bahçe taşı ve daha fazlası için hemen keşfedin!"
         />
         <meta
           name="keywords"
-          content="kilitli parke taşı, kaldırım taşı, beton parke taşı, kilitli taş, dış mekan taşı, dayanıklı parke, dekoratif parke taşı, şehir içi taş,çiçek taş beton"
+          content="kilitli parke taşı, kaldırım taşı, beton parke taşı, kilitli taş, dış mekan taşı, dayanıklı parke, dekoratif parke taşı, şehir içi taş, çiçek taş beton"
         />
-        <meta property="og:title" content="Kilitli Parke Taşı - Çicek Taş Beton" />
+        <meta property="og:title" content="Kilitli Parke Taşı - Dayanıklı ve Estetik Zemin Çözümleri | Çiçek Taş Beton" />
         <meta
           property="og:description"
-          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Kilitli Parke Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile zemin döşemelerinizi güçlendirin. Kaldırım taşı, bahçe taşı ve daha fazlası için hemen keşfedin!"
         />
-        <meta property="og:image" content="URL-to-image" />
+        <meta property="og:image" content="https://www.cicektasbeton.com/kilitli-parke-tası2.webp" />
+        <meta property="og:url" content="https://www.cicektasbeton.com/kilitli-parke-tasi" />
         <meta property="og:type" content="website" />
+        <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.cicektasbeton.com/kilitli-parke-tasi" />
       </Helmet>
 
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
-        <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
+        <h1 className="text-3xl font-extrabold text-center mb-6 text-gray-900">
           Kilitli Parke Taşı
         </h1>
 
@@ -38,19 +40,22 @@ const KilitliParkeTasi = () => {
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası2.webp"
-            alt="Kilitli Parke Taşı"
+            src="/kilitli-parke-tası2.webp"
+            alt="Kilitli Parke Taşı - Dayanıklı ve estetik zemin döşemesi"
             className="w-full max-w-[350px] h-[380px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası3.webp"
-            alt="Kilitli Parke Taşı"
+            src="/kilitli-parke-tası3.webp"
+            alt="Kilitli Parke Taşı - Pratik ve hızlı uygulanabilir"
             className="w-full max-w-[350px] h-[380px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası4.webp"
-            alt="Kilitli Parke Taşı"
+            src="/kilitli-parke-tası4.webp"
+            alt="Kilitli Parke Taşı - Doğa dostu ve ekonomik"
             className="w-full max-w-[350px] h-[380px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
 
@@ -124,19 +129,22 @@ const KilitliParkeTasi = () => {
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
-            src="images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası1.webp"
-            alt="Kilitli Parke Taşı"
+            src="/kilitli-parke-tası1.webp"
+            alt="Kilitli Parke Taşı - Çeşitli renk ve desen seçenekleri"
             className="w-full max-w-[350px] h-[380px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası5.webp"
-            alt="Kilitli Parke Taşı"
+            src="/kilitli-parke-tası5.webp"
+            alt="Kilitli Parke Taşı - Estetik ve dayanıklı"
             className="w-full max-w-[350px] h-[380px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/KİLİTLİ PARKE TAŞI/kilitli-parke-tası6.webp"
-            alt="Kilitli Parke Taşı"
+            src="/kilitli-parke-tası6.webp"
+            alt="Kilitli Parke Taşı - Doğa dostu ve ekonomik"
             className="w-full max-w-[350px] h-[380px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
       </div>

@@ -1,47 +1,111 @@
-import React from "react";
-import { Helmet } from "react-helmet-async";
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
-const OlukTasi5 = () => {
+const OlukTasi4 = () => {
   return (
     <>
       <Helmet>
-        <title>Oluk Taşı 25x33- Çicek Taş Beton</title>
+        <title> Oluk Taşı 25x33 - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton</title>
         <meta
           name="description"
-          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="25x30 Oluk Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile drenaj çözümleri sunar. Bahçe, yol ve kaldırım düzenlemeleri için ideal bir seçenek. Hemen keşfedin!"
         />
         <meta
           name="keywords"
-          content="oluk taşı, 25x33 oluk taşı, yağmur oluk taşı, drenaj taşları, peyzaj çözümleri,çiçek taş beton"
+          content="25x30 oluk taşı, oluk taşı, drenaj taşı, kaldırım taşı, bahçe taşı, Çiçek Taş, beton elemanları, çiçek taş beton"
         />
+        <meta property="og:title" content="25x30 Oluk Taşı - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton" />
+        <meta
+          property="og:description"
+          content="25x30 Oluk Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile drenaj çözümleri sunar. Bahçe, yol ve kaldırım düzenlemeleri için ideal bir seçenek. Hemen keşfedin!"
+        />
+        <meta property="og:image" content="https://www.cicektasbeton.com/oluk-tası6.webp" />
+        <meta property="og:url" content="https://www.cicektasbeton.com/oluk-tasi-25x33" />
+        <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.cicektasbeton.com/oluk-tasi-25x33" />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="25x33 Oluk Taşı - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton" />
+        <meta
+          name="twitter:description"
+          content="25x33 Oluk Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile drenaj çözümleri sunar. Bahçe, yol ve kaldırım düzenlemeleri için ideal bir seçenek. Hemen keşfedin!"
+        />
+        <meta name="twitter:image" content="https://www.cicektasbeton.com/oluk-tası6.webp" />
+
+        {/* Schema Markup */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Product",
+              "name": "25x33 Oluk Taşı",
+              "description": "25x33 Oluk Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile drenaj çözümleri sunar.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Çiçek Taş Beton"
+              },
+              "image": "https://www.cicektasbeton.com/oluk-tası6.webp",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "TRY",
+                "price": "Varies",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          `}
+        </script>
       </Helmet>
+
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
+        {/* Breadcrumb Navigasyonu */}
+        <nav className="text-sm mb-6" aria-label="Breadcrumb">
+          <ol className="list-none p-0 inline-flex">
+            <li className="flex items-center">
+              <a href="/" className="text-gray-700 hover:text-gray-900">Ana Sayfa</a>
+              <svg className="fill-current w-3 h-3 mx-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" />
+              </svg>
+            </li>
+            <li className="flex items-center">
+              <a href="/oluk-tasi" className="text-gray-700 hover:text-gray-900">Oluk Taşları</a>
+              <svg className="fill-current w-3 h-3 mx-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" />
+              </svg>
+            </li>
+            <li className="flex items-center">
+              <span className="text-gray-500">25x33 Oluk Taşı</span>
+            </li>
+          </ol>
+        </nav>
+
         {/* Başlık */}
-        <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
-          25x33 Oluk Taşı
+        <h1 className="text-3xl font-extrabold text-center mb-6 text-gray-900">
+           Oluk Taşı 25x33 - Yağmur Suyu Tahliyesi İçin En İyi Çözüm
         </h1>
 
         {/* Açıklama */}
         <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
           Oluk Taşı; bahçe, yol, kaldırım gibi peyzaj düzenlemesi yapılan
           alanlarda, yağan yağmur sularının birikmesi, tahliyesi, suyun
-          yönlendirilmesi ve drenaj sağlaması için ideal bir çözümdür. 25X33
+          yönlendirilmesi ve drenaj sağlaması için ideal bir çözümdür. 25X30
           oluk taşı fiyatları için firmamızla iletişime geçiniz.
         </p>
 
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/OLUK TAŞI/oluk-tası6.webp"
-            alt="Oluk Taşı"
+            src="/oluk-tası6.webp"
+            alt="25x33 Oluk Taşı - Dayanıklı ve estetik drenaj çözümü"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/OLUK TAŞI/oluk-tası4.webp"
-            alt="Oluk Taşı"
+            src="/oluk-tası4.webp"
+            alt="25x33 Oluk Taşı - Pratik ve hızlı uygulanabilir"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
 
@@ -54,15 +118,15 @@ const OlukTasi5 = () => {
             Yağmur oluk taşı tahliye etme özelliği sayesinde su taşkınlarını
             önler.
           </li>
-          <li>Metreye 3 adet 25X33 yağmur oluğu kullanılır.</li>
-          <li>Bir palette 180 adet 25X33 yağmur oluğu bulunmaktadır.</li>
+          <li>Metreye 4 adet 25X33 yağmur oluğu kullanılır.</li>
+          <li>Bir palette 96 adet 25X33 yağmur oluğu bulunmaktadır.</li>
           <li>Gri ve kırmızı gibi çeşitli renklerde üretimi mevcuttur.</li>
         </ul>
 
         {/* Ölçü ve Boyut Bilgileri */}
-        <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
           Ölçü ve Boyut Bilgileri
-        </h3>
+        </h2>
 
         {/* Tablo */}
         <div className="overflow-x-auto bg-white shadow-lg rounded-lg mb-6 md:mx-[100px] lg:mx-[95px]">
@@ -115,16 +179,18 @@ const OlukTasi5 = () => {
         </div>
 
         {/* Diğer Görseller */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
           <img
-            src="images/OLUK TAŞI/oluk-tası2.webp"
-            alt="Oluk Taşı"
+            src="/oluk-tası2.webp"
+            alt="25x33 Oluk Taşı - Çeşitli renk ve desen seçenekleri"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/OLUK TAŞI/oluk-tası4.webp"
-            alt="Oluk Taşı"
+            src="/oluk-tası4.webp"
+            alt="25x33 Oluk Taşı - Estetik ve dayanıklı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
       </div>
@@ -132,4 +198,4 @@ const OlukTasi5 = () => {
   );
 };
 
-export default OlukTasi5;
+export default OlukTasi4;

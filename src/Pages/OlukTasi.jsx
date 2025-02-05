@@ -5,34 +5,32 @@ const OlukTasi = () => {
   return (
     <>
       <Helmet>
-        <title>Oluk Taşları - Çiçek Taş Beton</title>
+        <title>Oluk Taşları - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton</title>
         <meta
           name="description"
           content="Oluk Taşları ile bahçe, kaldırım ve yol düzenlemesi için kaliteli ve dayanıklı drenaj çözümleri sunuyoruz. 20x20, 20x30, 25x25 gibi farklı ölçülerde oluk taşlarını şimdi keşfedin!"
         />
         <meta
           name="keywords"
-          content="oluk taşı, drenaj taşı, bahçe taşları, yol taşı, kaldırım taşı, Çiçek Taş, 20x20 oluk taşı, 25x25 oluk taşı,çiçek taş beton"
+          content="oluk taşı, drenaj taşı, bahçe taşları, yol taşı, kaldırım taşı, Çiçek Taş, 20x20 oluk taşı, 25x25 oluk taşı, çiçek taş beton"
         />
-        <meta name="author" content="Çiçek Taş beton" />
+        <meta name="author" content="Çiçek Taş Beton" />
         <meta name="robots" content="index, follow" />
-        <meta
-          property="og:title"
-          content="Oluk Taşları - Çiçek Taş Beton"
-        />
+        <meta property="og:title" content="Oluk Taşları - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton" />
         <meta
           property="og:description"
           content="Oluk Taşları ile bahçe, kaldırım ve yol düzenlemesi için kaliteli ve dayanıklı drenaj çözümleri sunuyoruz. 20x20, 20x30, 25x25 gibi farklı ölçülerde oluk taşlarını şimdi keşfedin!"
         />
-        <meta property="og:image" content="/images/OLUK TAŞI/oluk-tası3.webp" />
-        <meta property="og:url" content="https://cicektasbeton.com/oluk-tasi" />
+        <meta property="og:image" content="https://www.cicektasbeton.com/oluk-tası6.webp" />
+        <meta property="og:url" content="https://www.cicektasbeton.com/oluk-tasi" />
+        <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="canonical" href="https://cicektasbeton.com/oluk-tasi" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/oluk-tasi" />
       </Helmet>
 
       <div className="container mx-auto p-6 md:p-10 bg-gray-100">
         {/* Başlık */}
-        <h1 className="text-5xl font-extrabold text-center mb-10 text-gray-800">
+        <h1 className="text-4xl font-extrabold text-center mb-10 text-gray-800">
           Oluk Taşları
         </h1>
 
@@ -65,9 +63,10 @@ const OlukTasi = () => {
               <div className="overflow-hidden rounded-lg shadow-md">
                 <a href={item.href} rel="noopener noreferrer">
                   <img
-                    src="images/OLUK TAŞI/oluk-tası6.webp"
+                    src="/oluk-tası6.webp"
                     alt={`${item.name} - kaliteli drenaj taşı`}
                     className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
                   />
                 </a>
               </div>

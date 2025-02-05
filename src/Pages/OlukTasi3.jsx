@@ -1,39 +1,35 @@
-import React from 'react'
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const OlukTasi3 = () => {
   return (
     <>
       <Helmet>
-        <title>Oluk Taşı 25x25 - Çicek Taş Beton</title>
+        <title> Oluk Taşı 25x25 - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton</title>
         <meta
           name="description"
-          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="25x25 Oluk Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile drenaj çözümleri sunar. Bahçe, yol ve kaldırım düzenlemeleri için ideal bir seçenek. Hemen keşfedin!"
         />
         <meta
           name="keywords"
-          content="Oluk Taşı, 25x25 oluk taşı, beton elemanları, peyzaj taşı, yağmur oluk taşı, drenaj taşı, çicek beton,Çicek Taş Beton"
+          content="25x25 oluk taşı, oluk taşı, drenaj taşı, kaldırım taşı, bahçe taşı, Çiçek Taş, beton elemanları, çiçek taş beton"
         />
-        <meta
-          property="og:title"
-          content="Oluk Taşı 25x25 - Çicek Taş Beton"
-        />
+        <meta property="og:title" content="25x25 Oluk Taşı - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton" />
         <meta
           property="og:description"
-          content="25x25 Oluk Taşı ile bahçe ve kaldırım düzenlemelerinde yağmur suyu tahliyesi sağlanır. Çicek taş beton elemanları ile kalıcı ve dayanıklı çözümler!"
+          content="25x25 Oluk Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile drenaj çözümleri sunar. Bahçe, yol ve kaldırım düzenlemeleri için ideal bir seçenek. Hemen keşfedin!"
         />
-        <meta
-          property="og:image"
-          content="images/OLUK TAŞI/oluk-tası6.webp"
-        />
+        <meta property="og:image" content="https://www.cicektasbeton.com/oluk-tası6.webp" />
         <meta property="og:url" content="https://www.cicektasbeton.com/oluk-tasi-25x25" />
+        <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/oluk-tasi-25x25" />
       </Helmet>
 
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
-        <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
-          25x25 Oluk Taşı
+        <h1 className="text-3xl font-extrabold text-center mb-6 text-gray-900">
+           Oluk Taşı 25x25
         </h1>
 
         {/* Açıklama */}
@@ -47,14 +43,16 @@ const OlukTasi3 = () => {
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/OLUK TAŞI/oluk-tası6.webp"
-            alt="Oluk Taşı"
+            src="/oluk-tası6.webp"
+            alt="25x25 Oluk Taşı - Dayanıklı ve estetik drenaj çözümü"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/OLUK TAŞI/oluk-tası4.webp"
-            alt="Oluk Taşı"
+            src="/oluk-tası4.webp"
+            alt="25x25 Oluk Taşı - Pratik ve hızlı uygulanabilir"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
 
@@ -130,14 +128,16 @@ const OlukTasi3 = () => {
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
-            src="images/OLUK TAŞI/oluk-tası2.webp"
-            alt="Oluk Taşı"
+            src="/oluk-tası2.webp"
+            alt="25x25 Oluk Taşı - Çeşitli renk ve desen seçenekleri"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/OLUK TAŞI/oluk-tası4.webp"
-            alt="Oluk Taşı"
+            src="/oluk-tası4.webp"
+            alt="25x25 Oluk Taşı - Estetik ve dayanıklı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
       </div>

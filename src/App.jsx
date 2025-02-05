@@ -40,6 +40,7 @@ const App = () => {
           <Route path="/photo" element={<Gallery/>} />
           <Route path="/sev-tasi" element={<SevTasi />} />
           <Route path="/oluk-tasi" element={<OlukTasi />} />
+          
           <Route path="/kilitli-parke-tasi" element={<KilitliParkeTasi />} />
           <Route path="/30x30-kare-parke-tasi" element={<KareParkeTasi />} />
           <Route path="/40x40-kare-parke-tasi" element={<KareParkeTasi40x40/>} />

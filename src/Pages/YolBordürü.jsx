@@ -5,32 +5,64 @@ const YolBordürü = () => {
   return (
     <>
       <Helmet>
-        <title>30x70 Yol Bordürü - Çicek Taş Beton</title>
+        <title>30x70 Yol Bordürü - Dayanıklı ve Estetik Çözümler | Çiçek Taş Beton</title>
         <meta
           name="description"
-          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="30x70 Yol Bordürü, cadde ve sokaklarda dayanımı yüksek yapısı ve kalitesiyle belli bir yükselti ile bölerek yolları ayırır. Çiçek Taş Beton kaliteli ve dayanıklı çözümler sunuyor. Hemen keşfedin!"
         />
         <meta
           name="keywords"
-          content="yol bordürü, 30x70 yol bordürü, beton yol bordürü, belediye bordürü, yol taşları, kaldırım taşı, taş, beton elemanları ,çiçek taş beton"
+          content="yol bordürü, 30x70 yol bordürü, beton yol bordürü, belediye bordürü, yol taşları, kaldırım taşı, taş, beton elemanları, çiçek taş beton"
         />
-        <meta
-          property="og:title"
-          content="30x70 Yol Bordürü - Çicek Taş Beton"
-        />
+        <meta property="og:title" content="30x70 Yol Bordürü - Dayanıklı ve Estetik Çözümler | Çiçek Taş Beton" />
         <meta
           property="og:description"
-          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz."
+          content="30x70 Yol Bordürü, cadde ve sokaklarda dayanımı yüksek yapısı ve kalitesiyle belli bir yükselti ile bölerek yolları ayırır. Çiçek Taş Beton kaliteli ve dayanıklı çözümler sunuyor. Hemen keşfedin!"
         />
-        <meta property="og:image" content="path-to-image.jpg" />
-        <meta property="og:url" content="your-page-url.com" />
+         <meta name="robots" content="index, follow" />
+        <meta property="og:image" content="https://www.cicektasbeton.com/yol-bordürü.webp" />
+        <meta property="og:url" content="https://www.cicektasbeton.com/yol-borduru" />
+        <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="your-page-url.com" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/yol-borduru" />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="30x70 Yol Bordürü - Dayanıklı ve Estetik Çözümler | Çiçek Taş Beton" />
+        <meta
+          name="twitter:description"
+          content="30x70 Yol Bordürü, cadde ve sokaklarda dayanımı yüksek yapısı ve kalitesiyle belli bir yükselti ile bölerek yolları ayırır. Çiçek Taş Beton kaliteli ve dayanıklı çözümler sunuyor. Hemen keşfedin!"
+        />
+        <meta name="twitter:image" content="https://www.cicektasbeton.com/yol-bordürü.webp" />
+
+        {/* Schema Markup */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Product",
+              "name": "30x70 Yol Bordürü",
+              "description": "30x70 Yol Bordürü, cadde ve sokaklarda dayanımı yüksek yapısı ve kalitesiyle belli bir yükselti ile bölerek yolları ayırır.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Çiçek Taş Beton"
+              },
+              "image": "https://www.cicektasbeton.com/yol-bordürü.webp",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "TRY",
+                "price": "Varies",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          `}
+        </script>
       </Helmet>
+
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
         <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
-          30X70 YOL BORDÜRÜ
+          30x70 Yol Bordürü - Dayanıklı ve Estetik Çözümler
         </h1>
 
         {/* Açıklama */}
@@ -44,20 +76,28 @@ const YolBordürü = () => {
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/BAHCE BORDURU/yol-bordürü.webp"
-            alt="30x70 yol Bordürü"
+            src="/yol-bordürü.webp"
+            alt="30x70 Yol Bordürü - Dayanıklı ve Estetik"
             className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
-           <img
-            src="images/BAHCE BORDURU/30x70yol1.webp"
-            alt="30x70 yol Bordürü"
-            className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
-          />
-         
           <img
-            src="images/BAHCE BORDURU/30x70-yol3.webp"
-            alt="30x70 yol Bordürü"
+            src="/30x70yol1.webp"
+            alt="30x70 Yol Bordürü - Cadde ve Sokaklarda Kullanım"
             className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
+          />
+          <img
+            src="/30x70-yol3.webp"
+            alt="30x70 Yol Bordürü - Park ve Bahçe Düzenlemeleri"
+            className="w-full max-w-[450px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
+          />
+          <img
+            src="/30x70yolbordur.webp"
+            alt="30x70 Yol Bordürü - Otopark ve Yaya Yolları"
+            className="w-full h-full object-contain rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
 
@@ -82,9 +122,9 @@ const YolBordürü = () => {
         </ul>
 
         {/* Ölçü ve Boyut Bilgileri */}
-        <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
           Ölçü ve Boyut Bilgileri
-        </h3>
+        </h2>
 
         {/* Tablo */}
         <div className="overflow-x-auto bg-white shadow-lg rounded-lg mb-6 md:mx-[100px] lg:mx-[95px]">
@@ -139,16 +179,12 @@ const YolBordürü = () => {
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
-            src="images/BAHCE BORDURU/30x70-yol2.webp"
-            alt="30x70 yol Bordürü"
+            src="/30x70-yol2.webp"
+            alt="30x70 Yol Bordürü - Yaya Yolları ve Kaldırımlar"
             className="w-full h-full object-contain rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
-           <img
-            src="images/BAHCE BORDURU/30x70-yol.webp"
-            alt="30x70 yol Bordürü"
-            className="w-full h-full object-contain  rounded-lg shadow-lg mx-auto"
-          />
-         
+       
         </div>
       </div>
     </>

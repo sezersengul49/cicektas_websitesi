@@ -5,20 +5,26 @@ const BetonBarbeküTasi = () => {
   return (
     <>
       <Helmet>
-        <title>Beton Barbekü Taşı - Çiçek Taş Beton</title>
+        <title>Beton Barbekü Taşı - Çiçek Taş Beton Elemanları</title>
         <meta
           name="description"
           content="Beton barbekü taşı, dayanıklı ve uzun ömürlü dış mekan barbekü çözümleri. Çeşitli boyutlar ve tasarımlarla bahçenize estetik katın. Farklı model seçenekleriyle pişirme keyfinizi artırın!"
         />
         <meta
           name="keywords"
-          content="beton barbekü taşı, barbekü taşı, dış mekan barbekü, dayanıklı barbekü taşları, bahçe barbeküsü, beton taşları, ısıya dayanıklı barbekü, barbekü taşları fiyat,çiçek taş beton"
+          content="beton barbekü taşı, barbekü taşı, dış mekan barbekü, dayanıklı barbekü taşları, bahçe barbeküsü, beton taşları, ısıya dayanıklı barbekü, barbekü taşları fiyat, çiçek taş beton"
         />
+        <meta property="og:title" content="Beton Barbekü Taşı - Çiçek Taş Beton" />
         <meta
-          name="robots"
-          content="index, follow"
+          property="og:description"
+          content="Beton barbekü taşı, dayanıklı ve uzun ömürlü dış mekan barbekü çözümleri. Çeşitli boyutlar ve tasarımlarla bahçenize estetik katın."
         />
+        <meta property="og:image" content="https://www.cicektasbeton.com/beton-barbekü-tası3.webp" />
+        <meta property="og:url" content="https://www.cicektasbeton.com/beton-barbeku-tasi" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/beton-barbeku-tasi" />
       </Helmet>
+
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
         <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
@@ -33,19 +39,22 @@ const BetonBarbeküTasi = () => {
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası3.webp"
+            src="/beton-barbekü-tası3.webp"
             alt="Beton Barbekü Taşı - Dış mekan barbekü taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası4.webp"
+            src="/beton-barbekü-tası4.webp"
             alt="Beton Barbekü Taşı - Estetik dış mekan tasarımı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası5.webp"
+            src="/beton-barbekü-tası5.webp"
             alt="Beton Barbekü Taşı - Dayanıklı barbekü taşı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
 
@@ -113,34 +122,40 @@ const BetonBarbeküTasi = () => {
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
-            src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası6.webp"
+            src="/beton-barbekü-tası6.webp"
             alt="Beton Barbekü Taşı - Estetik ve dayanıklı barbekü taşı"
-            className="w-full max-w-[350px] h-[400px]  rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası9.webp"
+            src="/beton-barbekü-tası9.webp"
             alt="Beton Barbekü Taşı - Dış mekan barbekü taşı"
-            className="w-full max-w-[350px] h-[400px]  rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası8.webp"
+            src="/beton-barbekü-tası8.webp"
             alt="Beton Barbekü Taşı - Farklı tasarımlarda barbekü taşı"
             className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası2.webp"
+            src="/beton-barbekü-tası2.webp"
             alt="Beton Barbekü Taşı - Bahçe dekorasyonuna uygun barbekü taşı"
             className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası7.webp"
+            src="/beton-barbekü-tası7.webp"
             alt="Beton Barbekü Taşı - Bahçe için ideal barbekü taşı"
-            className="w-full max-w-[350px] h-[400px]  rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/BETON BARBEKÜ TAŞI/beton-barbekü-tası1.webp"
+            src="/beton-barbekü-tası1.webp"
             alt="Beton Barbekü Taşı - Estetik barbekü taşı"
             className="w-full max-w-[350px] h-[400px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
       </div>

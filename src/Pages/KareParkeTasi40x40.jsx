@@ -5,62 +5,57 @@ const KareParkeTasi = () => {
   return (
     <>
       <Helmet>
-        <title>40x40 Kare Parke Taşı - Çicek Taş Beton</title>
+        <title>40x40 Kare Parke Taşı - Dayanıklı ve Estetik Beton Taşları | Çiçek Taş Beton</title>
         <meta
           name="description"
-          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Beton parke taşı, kaldırım taşı, bahçe dekorasyonu ve daha fazlası hakkında bilgi edinin!"
+          content="40x40 Kare Parke Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile zemin döşemelerinizi güçlendirin. Kaldırım taşı, bahçe taşı ve daha fazlası için hemen keşfedin!"
         />
         <meta
           name="keywords"
-          content="kare parke taşı, beton parke taşı, 40x40 parke taşı, kaldırım taşı, bahçe taşı, beton taş, interlocking stone, barbekü taşı,çiçek taş beton"
+          content="40x40 kare parke taşı, beton parke taşı, kaldırım taşı, bahçe taşı, beton taş, interlocking stone, barbekü taşı, çiçek taş beton"
         />
-        <meta
-          property="og:title"
-          content="40x40 Kare Parke Taşı - Çicek Taş Beton"
-        />
+        <meta property="og:title" content="40x40 Kare Parke Taşı - Dayanıklı ve Estetik Beton Taşları | Çiçek Taş Beton" />
         <meta
           property="og:description"
-          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz."
+          content="40x40 Kare Parke Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile zemin döşemelerinizi güçlendirin. Kaldırım taşı, bahçe taşı ve daha fazlası için hemen keşfedin!"
         />
-        <meta property="og:image" content="URL-to-image" />
+        <meta property="og:image" content="https://www.cicektasbeton.com/40x40-kare2.webp" />
+        <meta property="og:url" content="https://www.cicektasbeton.com/40x40-kare-parke-tasi" />
         <meta property="og:type" content="website" />
-        <link
-          rel="canonical"
-          href="https://www.cicektasbeton.com/kare-parke-tasi"
-        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/40x40-kare-parke-tasi" />
       </Helmet>
 
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
-        <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
+        <h1 className="text-3xl font-extrabold text-center mb-6 text-gray-900">
           40x40 Kare Parke Taşı - Sağlam ve Dayanıklı Beton Taşları
         </h1>
 
         {/* Açıklama */}
         <p className="text-lg text-gray-700 mb-6 px-6 md:px-14 leading-relaxed">
-          40x40 kare parke taşı, Çicek beton elemanları tarafından üretilen
-          sağlam ve uzun ömürlü taşlardır. Bu beton taşları, kaldırım taşı,
-          bahçe taşı ve barbekü taşı gibi pek çok kullanım alanına sahiptir.
-          Beton parke taşlarımız, yüksek dayanıklılıkları ile yıllarca sorunsuz
-          kullanılabilir.
+          40x40 kare parke taşı, Çiçek Taş Beton tarafından üretilen sağlam ve uzun ömürlü taşlardır. Bu beton taşları, kaldırım taşı, bahçe taşı ve barbekü taşı gibi pek çok kullanım alanına sahiptir. Beton parke taşlarımız, yüksek dayanıklılıkları ile yıllarca sorunsuz kullanılabilir.
         </p>
 
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/KARE PARKE TAŞI/40x40-kare2.webp"
-            alt="40x40 Kare Parke Taşı"
+            src="/40x40-kare2.webp"
+            alt="40x40 Kare Parke Taşı - Dayanıklı ve estetik zemin döşemesi"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/KARE PARKE TAŞI/40x40-kare4.webp"
-            alt="40x40 Kare Parke Taşı"
+            src="/40x40-kare4.webp"
+            alt="40x40 Kare Parke Taşı - Pratik ve hızlı uygulanabilir"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/KARE PARKE TAŞI/40x40-kare5.webp"
-            alt="40x40 Kare Parke Taşı"
+            src="/40x40-kare5.webp"
+            alt="40x40 Kare Parke Taşı - Doğa dostu ve ekonomik"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
 
@@ -125,15 +120,16 @@ const KareParkeTasi = () => {
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
-            src="images/KARE PARKE TAŞI/30x30-kare-parke.webp"
-            alt="40x40 Kare Parke Taşı"
+            src="/30x30-kare-parke.webp"
+            alt="40x40 Kare Parke Taşı - Çeşitli renk ve desen seçenekleri"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
-         
           <img
-            src="images/KARE PARKE TAŞI/40x40-kare.webp"
-            alt="40x40 Kare Parke Taşı"
+            src="/40x40-kare.webp"
+            alt="40x40 Kare Parke Taşı - Estetik ve dayanıklı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
       </div>

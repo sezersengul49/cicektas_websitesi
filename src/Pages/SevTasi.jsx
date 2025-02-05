@@ -5,30 +5,64 @@ const SevTasi = () => {
   return (
     <>
       <Helmet>
-        <title>Şev Taşı- Çicek Taş Beton</title>
+        <title>Şev Taşı - Toprak Kaymasını Önleyen Çözümler | Çiçek Taş Beton</title>
         <meta
           name="description"
-          content="Çicek Taş beton  olarak kaldırım taşı, barbekü taşı, kilitli taş ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Şev Taşı, toprak kaymasını önler, bahçe düzenlemeleri ve yamaçlarda kullanılır. Çiçek Taş Beton kaliteli ve dayanıklı çözümler sunuyor. Hemen keşfedin!"
         />
         <meta
           name="keywords"
-          content="şev taşı, toprak kayması engelleyici taş, peyzaj taşları, beton taş, yamaç duvarı, şev taşı fiyatları çiçek taş beton"
+          content="şev taşı,duvar taşı,istinat duvar örme taşı, toprak kayması engelleyici taş, peyzaj taşları, beton taş, yamaç duvarı, şev taşı fiyatları, çiçek taş beton"
         />
-        <meta
-          property="og:title"
-          content="Şev Taşı- Çicek Taş Beton"
-        />
+        <meta property="og:title" content="Şev Taşı - Toprak Kaymasını Önleyen Çözümler | Çiçek Taş Beton" />
         <meta
           property="og:description"
-          content="Şev Taşı, toprak kaymasını önler, bahçe düzenlemeleri ve yamaçlarda kullanılır. Çicek taş beton kaliteli çözümler sunuyor."
+          content="Şev Taşı, toprak kaymasını önler, bahçe düzenlemeleri ve yamaçlarda kullanılır. Çiçek Taş Beton kaliteli ve dayanıklı çözümler sunuyor. Hemen keşfedin!"
         />
-        <meta property="og:image" content="images/ŞEV TAŞI/sev-tası1.webp" />
+         <meta name="robots" content="index, follow" />
+        <meta property="og:image" content="https://www.cicektasbeton.com/sev-tası1.webp" />
         <meta property="og:url" content="https://www.cicektasbeton.com/sev-tasi" />
+        <meta property="og:type" content="website" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/sev-tasi" />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Şev Taşı - Toprak Kaymasını Önleyen Çözümler | Çiçek Taş Beton" />
+        <meta
+          name="twitter:description"
+          content="Şev Taşı, toprak kaymasını önler, bahçe düzenlemeleri ve yamaçlarda kullanılır. Çiçek Taş Beton kaliteli ve dayanıklı çözümler sunuyor. Hemen keşfedin!"
+        />
+        <meta name="twitter:image" content="https://www.cicektasbeton.com/images/ŞEV%20TAŞI/sev-tası1.webp" />
+
+        {/* Schema Markup */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Product",
+              "name": "Şev Taşı",
+              "description": "Şev Taşı, toprak kaymasını önler, bahçe düzenlemeleri ve yamaçlarda kullanılır. Çiçek Taş Beton kaliteli ve dayanıklı çözümler sunuyor.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Çiçek Taş Beton"
+              },
+              "image": "https://www.cicektasbeton.com/images/ŞEV%20TAŞI/sev-tası1.webp",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "TRY",
+                "price": "Varies",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          `}
+        </script>
       </Helmet>
+
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
-        <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
-          Şev Taşı
+        <h1 className="text-3xl font-extrabold text-center mb-6 text-gray-900">
+          Şev Taşı - Toprak Kaymasını Önleyen Çözümler
         </h1>
 
         {/* Açıklama */}
@@ -36,7 +70,7 @@ const SevTasi = () => {
           Şev Taşı, otoyol veya bahçe gibi mekanlarda toprak kaymasını
           engellemek ve dik eğimli yamaçlarda oluşabilecek sel felaketlerini
           önlemede kullanılan beton ürünüdür. Toprak tutuculuğunun yanı sıra
-          bahçe ve peyzaj çalışmalarında istinat duvarı amaçlıda kullanılabilir.
+          bahçe ve peyzaj çalışmalarında istinat duvarı amaçlı da kullanılabilir.
           Birbirine kitleme yapılarak uygulanan şev taşı, yüksek yamaçlardaki
           eğimlerde perde görevi sağlar. Şev Taşı fiyatları için firmamızla
           iletişime geçiniz.
@@ -45,19 +79,22 @@ const SevTasi = () => {
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/ŞEV TAŞI/sev-tası1.webp"
-            alt="Şev Taşı"
+            src="/sev-tası1.webp"
+            alt="Şev Taşı - Toprak Kaymasını Önleyen Çözüm"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/ŞEV TAŞI/sev-tası7.webp"
-            alt="Şev Taşı"
-            className="w-full max-w-[350px] h-[350px]  rounded-lg shadow-lg mx-auto"
+            src="/sev-tası7.webp"
+            alt="Şev Taşı - Peyzaj ve Bahçe Düzenlemeleri"
+            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/ŞEV TAŞI/sev-tası6.webp"
-            alt="Şev Taşı"
+            src="/sevtasi.webp"
+            alt="Şev Taşı - Yamaçlarda Kullanım"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
 
@@ -74,9 +111,9 @@ const SevTasi = () => {
         </ul>
 
         {/* Ölçü ve Boyut Bilgileri */}
-        <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
           Ölçü ve Boyut Bilgileri
-        </h3>
+        </h2>
 
         {/* Tablo */}
         <div className="overflow-x-auto bg-white shadow-lg rounded-lg mb-6 md:mx-[100px] lg:mx-[95px]">
@@ -131,21 +168,23 @@ const SevTasi = () => {
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
-            src="images/ŞEV TAŞI/sev-tası4.webp"
-            alt="Şev Taşı"
+            src="/sev-tası4.webp"
+            alt="Şev Taşı - Estetik ve Dayanıklı"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/ŞEV TAŞI/sev-tası2.webp"
-            alt="Şev Taşı"
+            src="/sev-tası2.webp"
+            alt="Şev Taşı - Yamaçlarda Kullanım Örneği"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/ŞEV TAŞI/sev-tası5.webp"
-            alt="Şev Taşı"
+            src="/sev-tası5.webp"
+            alt="Şev Taşı - Peyzaj Çözümleri"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
-        
         </div>
       </div>
     </>

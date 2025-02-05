@@ -5,26 +5,26 @@ const Briket = () => {
   return (
     <>
       <Helmet>
-        <title>Briket- Çicek Taş Beton</title>
+        <title>Briket - Çiçek Taş Beton Elemanları</title>
         <meta
           name="description"
-          content="Çicek taş beton elemanları olarak kaldırım taşı, barbekü taşı, kilitli taş, Briket ve oluk taşı modellerimizle kaliteli ve dayanıklı çözümler sunuyoruz. Şimdi keşfedin!"
+          content="Briket, duvar, bina, sığınak gibi alanlarda kullanılan, estetik ve dayanıklı bir beton yapı malzemesidir. Çiçek Taş Beton olarak kaliteli briket taşları sunuyoruz."
         />
         <meta
           name="keywords"
-          content="briket,şev taşı, toprak kayması engelleyici taş, peyzaj taşları, beton taş, yamaç duvarı, şev taşı fiyatları, çiçek taş beton"
+          content="briket, şev taşı, toprak kayması engelleyici taş, peyzaj taşları, beton taş, yamaç duvarı, şev taşı fiyatları, çiçek taş beton"
         />
-        <meta
-          property="og:title"
-          content="Briket- Çicek Taş Beton"
-        />
+        <meta property="og:title" content="Briket - Çiçek Taş Beton" />
         <meta
           property="og:description"
-          content="Briket, toprak kaymasını önler, bahçe düzenlemeleri ve yamaçlarda kullanılır. Çicek taş beton elemanları kaliteli çözümler sunuyor."
+          content="Briket, duvar, bina, sığınak gibi alanlarda kullanılan, estetik ve dayanıklı bir beton yapı malzemesidir. Çiçek Taş Beton olarak kaliteli briket taşları sunuyoruz."
         />
-        <meta property="og:image" content="images/ŞEV TAŞI/sev-tası1.webp" />
-        <meta property="og:url" content="https://www.cicektasbeton.com/sev-tasi" />
+        <meta property="og:image" content="https://www.cicektasbeton.com/briket1.webp" />
+        <meta property="og:url" content="https://www.cicektasbeton.com/briket" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/briket" />
       </Helmet>
+
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
         <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-900">
@@ -33,7 +33,7 @@ const Briket = () => {
 
         {/* Açıklama */}
         <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
-          Briket; duvar , bina , sığınak gibi alanlarda kullanılan briket taşı ,
+          Briket; duvar, bina, sığınak gibi alanlarda kullanılan briket taşı,
           sunduğu estetik görselliğin yanı sıra kolay kullanımı uygulayıcıların
           dikkatini çeken beton yapı malzemesidir. Briket fiyatları için
           firmamızla iletişime geçebilirsiniz.
@@ -42,19 +42,22 @@ const Briket = () => {
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="images/briket/briket1.webp"
-            alt="briket"
+            src="/briket1.webp"
+            alt="Briket - Duvar ve bina inşasında kullanılan beton yapı malzemesi"
             className="w-full max-w-[350px] h-[430px] rounded-lg shadow-lg mx-auto"
-          />
-           <img
-            src="images/briket/briket3.webp"
-            alt="briket"
-            className="w-full max-w-[350px] h-[430px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
           <img
-            src="images/briket/briket4.webp"
-            alt="briket"
+            src="/briket3.webp"
+            alt="Briket - Peyzaj ve bahçe düzenlemelerinde kullanılan taş"
             className="w-full max-w-[350px] h-[430px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
+          />
+          <img
+            src="/briket4.webp"
+            alt="Briket - Dayanıklı ve estetik beton yapı malzemesi"
+            className="w-full max-w-[350px] h-[430px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
         </div>
 
@@ -65,7 +68,7 @@ const Briket = () => {
         <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
           <li>Genellikle bahçe duvarı, bina, sığınak, kulübe gibi mekanların inşasında kullanılır.</li>
           <li>Ürünümüz pres beton baskı ile üretilmektedir.</li>
-          <li>15cm yüksekliğinde 15cm kalınlığında ve 33 cm genişliğindedir. 15X15X33</li>
+          <li>15cm yüksekliğinde, 15cm kalınlığında ve 33cm genişliğindedir. (15x15x33)</li>
           <li>Metrekareye 20 adet briket taşı kullanılır.</li>
           <li>Bir palette 150 adet beton briket bulunmaktadır.</li>
         </ul>
@@ -127,13 +130,12 @@ const Briket = () => {
 
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <img
-            src="images/briket/briket5.webp"
-            alt="briket"
+          <img
+            src="/briket5.webp"
+            alt="Briket - Bahçe duvarı ve peyzaj düzenlemelerinde kullanılan taş"
             className="w-full max-w-[350px] h-[430px] rounded-lg shadow-lg mx-auto"
+            loading="lazy"
           />
-        
-        
         </div>
       </div>
     </>

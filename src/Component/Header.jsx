@@ -8,7 +8,7 @@ const Header = () => {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <header className="relative bg-white shadow-xl">
+    <header className="relative bg-white shadow-xl text-gray-900">
       {/* Animated Background */}
       <div className="absolute inset-0 "></div>
       
@@ -17,11 +17,12 @@ const Header = () => {
         {/* Logo Area */}
         <div className="flex items-center space-x-4 md:space-x-6">
           <Link to={"/"}>
-            <div className="w-[80px] h-[80px] md:w-24 md:h-24 rounded-full flex items-center justify-center shadow-xl">
+            <div className="w-[50px] h-[50px] md:w-16 md:h-16 rounded-full flex items-center justify-center shadow-xl">
               <img
                 className="w-full h-full object-contain rounded-full"
-                src="images/logo1.webp"
-                alt="Çiçektaş beton Logo"
+                src="/logo1.webp"
+                alt="Çiçektaş beton Logo-Çiçek Taş Beton "
+                loading="lazy"
               />
             </div>
           </Link>
@@ -34,6 +35,7 @@ const Header = () => {
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="md:hidden text-black focus:outline-none"
+          aria-label="Menüyü Aç"
         >
           <svg
             className="w-6 h-6"
@@ -67,7 +69,8 @@ const Header = () => {
                   : "hover:text-yellow-400"
               } cursor-pointer transition duration-300 transform hover:scale-105`}
             >
-              <Link to={"/"}>Anasayfa</Link>
+         <Link to="/" className="text-gray-900 hover:text-gray-700">Ana Sayfa</Link>
+
             </li>
             <li
               className={`${

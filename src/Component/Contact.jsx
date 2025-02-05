@@ -12,7 +12,7 @@ const Contact = () => {
         />
         <meta
           name="keywords"
-          content="Çiçek Taş, iletişim, üst yapı elemanları, beton taşlar, müşteri hizmetleri,çiçek taş beton"
+          content="Çiçek Taş, iletişim, üst yapı elemanları, beton taşlar, müşteri hizmetleri,çiçek taş beton,şev taşı, bordür taşı"
         />
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">

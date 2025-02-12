@@ -12,7 +12,7 @@ const KareParkeTasi = () => {
         />
         <meta
           name="keywords"
-          content="40x40 kare parke taşı, beton parke taşı, kaldırım taşı, bahçe taşı, beton taş, interlocking stone, barbekü taşı, çiçek taş beton"
+          content="40x40 kare parke taşı, beton parke taşı, kaldırım taşı, bahçe taşı, beton taş, interlocking stone, barbekü taşı, çiçek taş beton,kare parke taşı fiyatları"
         />
         <meta property="og:title" content="40x40 Kare Parke Taşı - Dayanıklı ve Estetik Beton Taşları | Çiçek Taş Beton" />
         <meta

@@ -13,4 +13,12 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.html [QSA,L]
 
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 
+<VirtualHost *:443>
+    Protocols h2 http/1.1
+    SSLEngine on
+    SSLCertificateFile /path/to/your/certificate.crt
+    SSLCertificateKeyFile /path/to/your/private.key
+    # Diğer yapılandırmalar...
+</VirtualHost>

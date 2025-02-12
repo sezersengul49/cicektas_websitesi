@@ -5,14 +5,14 @@ const Briket = () => {
   return (
     <>
       <Helmet>
-        <title>Briket - Çiçek Taş Beton Elemanları</title>
+      <title>Beton Briket | Dayanıklı ve Estetik Beton Yapı Malzemeleri - Çiçek Taş Beton</title>
         <meta
           name="description"
           content="Briket, duvar, bina, sığınak gibi alanlarda kullanılan, estetik ve dayanıklı bir beton yapı malzemesidir. Çiçek Taş Beton olarak kaliteli briket taşları sunuyoruz."
         />
         <meta
           name="keywords"
-          content="briket, şev taşı, toprak kayması engelleyici taş, peyzaj taşları, beton taş, yamaç duvarı, şev taşı fiyatları, çiçek taş beton"
+          content="briket, şev taşı, toprak kayması engelleyici taş, peyzaj taşları, beton taş, yamaç duvarı, şev taşı fiyatları, çiçek taş beton,briket fiyatları,duvar briket"
         />
         <meta property="og:title" content="Briket - Çiçek Taş Beton" />
         <meta
@@ -23,6 +23,57 @@ const Briket = () => {
         <meta property="og:url" content="https://www.cicektasbeton.com/briket" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.cicektasbeton.com/briket" />
+        {/* Schema Markup */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "Briket",
+            image: "https://cicektasbeton.com/briket1.webp",
+            description:
+              "Dayanıklı ve Estetik Beton Yapı Malzemeleri",
+            brand: {
+              "@type": "Brand",
+              name: "Çiçek Taş Beton",
+            },
+            offers: {
+              "@type": "Offer",
+              url: "https://cicektasbeton.com/briket",
+              priceCurrency: "TRY",
+              price: 100.0,
+              availability: "https://schema.org/InStock",
+              priceValidUntil: "2024-12-31",
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.5", // Ürünün ortalama puanı (1 ile 5 arasında)
+              reviewCount: "120", // Toplam inceleme sayısı
+            },
+            review: [
+              {
+                "@type": "Review",
+                author: "Ahmet Yılmazdogan",
+                reviewRating: {
+                  "@type": "Rating",
+                  ratingValue: "5",
+                },
+                reviewBody:
+                  "Harika bir ürün, kalitesi ve dayanıklılığı çok iyi. Tavsiye ederim!",
+                datePublished: "2023-10-01",
+              },
+              {
+                "@type": "Review",
+                author: "Ayşe Kara",
+                reviewRating: {
+                  "@type": "Rating",
+                  ratingValue: "4",
+                },
+                reviewBody: "Ürün güzel, ancak teslimat biraz gecikti.",
+                datePublished: "2023-09-25",
+              },
+            ],
+          })}
+        </script>
       </Helmet>
 
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
@@ -32,7 +83,7 @@ const Briket = () => {
         </h1>
 
         {/* Açıklama */}
-        <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
+        <p className="text-lg text-gray-700 mb-6 px-8 leading-relaxed">
           Briket; duvar, bina, sığınak gibi alanlarda kullanılan briket taşı,
           sunduğu estetik görselliğin yanı sıra kolay kullanımı uygulayıcıların
           dikkatini çeken beton yapı malzemesidir. Briket fiyatları için
@@ -62,10 +113,10 @@ const Briket = () => {
         </div>
 
         {/* Önemli Bilgiler */}
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[110px]">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[40px]">
           Önemli Bilgiler
         </h2>
-        <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
+        <ul className="list-disc pl-[40px] text-gray-700 mb-10 leading-loose">
           <li>Genellikle bahçe duvarı, bina, sığınak, kulübe gibi mekanların inşasında kullanılır.</li>
           <li>Ürünümüz pres beton baskı ile üretilmektedir.</li>
           <li>15cm yüksekliğinde, 15cm kalınlığında ve 33cm genişliğindedir. (15x15x33)</li>

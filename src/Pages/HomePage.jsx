@@ -22,7 +22,7 @@ const HomePage = () => (
       <meta property="og:image" content="https://www.cicektasbeton.com/kilitli-tas.webp" />
       <meta property="og:url" content="https://www.cicektasbeton.com" />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://www.cicektasbeton.com" />
+  
     </Helmet>
     <Section />
     <Services />

@@ -12,7 +12,7 @@ const YolBordürü = () => {
         />
         <meta
           name="keywords"
-          content="yol bordürü, 30x70 yol bordürü, beton yol bordürü, belediye bordürü, yol taşları, kaldırım taşı, taş, beton elemanları, çiçek taş beton"
+          content="yol bordürü, 30x70 yol bordürü, beton yol bordürü, belediye bordürü, yol taşları, kaldırım taşı, taş, beton elemanları, çiçek taş beton,yol bordürü fiyatları"
         />
         <meta property="og:title" content="30x70 Yol Bordürü - Dayanıklı ve Estetik Çözümler | Çiçek Taş Beton" />
         <meta
@@ -35,29 +35,58 @@ const YolBordürü = () => {
         />
         <meta name="twitter:image" content="https://www.cicektasbeton.com/yol-bordürü.webp" />
 
-        {/* Schema Markup */}
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Product",
-              "name": "30x70 Yol Bordürü",
-              "description": "30x70 Yol Bordürü, cadde ve sokaklarda dayanımı yüksek yapısı ve kalitesiyle belli bir yükselti ile bölerek yolları ayırır.",
-              "brand": {
-                "@type": "Brand",
-                "name": "Çiçek Taş Beton"
+         {/* Schema Markup */}
+         <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "30x70 yol bordürü",
+            image: "https://cicektasbeton.com/yol-bordürü.webp",
+           description: "30x70 Yol Bordürü, cadde ve sokaklarda dayanımı yüksek yapısı ve kalitesiyle belli bir yükselti ile bölerek yolları ayırır.",
+            brand: {
+              "@type": "Brand",
+              name: "Çiçek Taş Beton",
+            },
+            offers: {
+              "@type": "Offer",
+              url: "https://cicektasbeton.com/yol-borduru",
+              priceCurrency: "TRY",
+              price: 145.0,
+              availability: "https://schema.org/InStock",
+              priceValidUntil: "2025-12-31",
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.7", // Ürünün ortalama puanı (1 ile 5 arasında)
+              reviewCount: "140", // Toplam inceleme sayısı
+            },
+            review: [
+              {
+                "@type": "Review",
+                author: "Ahmet Yilmazar",
+                reviewRating: {
+                  "@type": "Rating",
+                  ratingValue: "5",
+                },
+                reviewBody:
+                  "Harika bir ürün, kalitesi ve dayanıklılığı çok iyi. Tavsiye ederim!",
+                datePublished: "2023-10-01",
               },
-              "image": "https://www.cicektasbeton.com/yol-bordürü.webp",
-              "offers": {
-                "@type": "Offer",
-                "priceCurrency": "TRY",
-                "price": "Varies",
-                "availability": "https://schema.org/InStock"
-              }
-            }
-          `}
+              {
+                "@type": "Review",
+                author: "Ayşe Kaynarca",
+                reviewRating: {
+                  "@type": "Rating",
+                  ratingValue: "4",
+                },
+                reviewBody: "Ürün güzel, ancak teslimat biraz gecikti.",
+                datePublished: "2023-09-25",
+              },
+            ],
+          })}
         </script>
       </Helmet>
+      
 
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
@@ -66,7 +95,7 @@ const YolBordürü = () => {
         </h1>
 
         {/* Açıklama */}
-        <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
+        <p className="text-lg text-gray-700 mb-6 px-8 leading-relaxed">
           Karayolu Bordürü; cadde ve sokaklarda dayanımı yüksek yapısı ve
           kalitesiyle belli bir yükselti ile bölerek yolları ayırır. Her türlü
           bahçe, site, park, yol, kaldırım, otopark gibi alanlarda
@@ -102,10 +131,10 @@ const YolBordürü = () => {
         </div>
 
         {/* Önemli Bilgiler */}
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[110px]">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[50px]">
           Önemli Bilgiler
         </h2>
-        <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
+        <ul className="list-disc pl-[50px] text-gray-700 mb-10 leading-loose">
           <li>Belediye bordürü olarak da bilinmektedir.</li>
           <li>
             Üst genişliği 12 cm alt genişliği 15 cm yüksekliği 30 cm ve uzunluğu

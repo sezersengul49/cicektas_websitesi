@@ -12,7 +12,7 @@ const FloraSevTasi = () => {
         />
         <meta
           name="keywords"
-          content="flora şev taşı, terra blok, çiçek taş beton elemanları, kaldırım taşı, barbekü taşı, kilitli taş, oluk taşı, beton blok, peyzaj tasarımı, çiçek taş beton"
+          content="flora şev taşı, terra blok, çiçek taş beton elemanları, kaldırım taşı, barbekü taşı, kilitli taş, oluk taşı, beton blok, peyzaj tasarımı, çiçek taş beton,flora şev taşı fiyatları"
         />
         <meta property="og:title" content="Flora Şev Taşı - Terra Blok | Çiçek Taş Beton" />
         <meta
@@ -32,7 +32,7 @@ const FloraSevTasi = () => {
         </h1>
 
         {/* Açıklama */}
-        <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
+        <p className="text-lg text-gray-700 mb-6 px-8 leading-relaxed">
           Flora Şev Taşı (Terra Blok), yüksek dayanıklılığı ve mühendislik
           güvenliğiyle peyzaj tasarımlarınıza değer katıyor. Hatasız kitleme
           sistemi ile hızlı ve ekonomik çözüm sunuyor. Doğaya uyumlu farklı renk
@@ -62,10 +62,10 @@ const FloraSevTasi = () => {
         </div>
 
         {/* Önemli Bilgiler */}
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[110px]">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[40px]">
           Önemli Bilgiler
         </h2>
-        <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
+        <ul className="list-disc pl-[40px] text-gray-700 mb-10 leading-loose">
           <li>Terra blok taşı toprak kaymasını önler</li>
           <li>Metrekareye 15 adet terra blok kullanılır.</li>
           <li>Şev Taşı ağırlığı 23 kg’dır.</li>

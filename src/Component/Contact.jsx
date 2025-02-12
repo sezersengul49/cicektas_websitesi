@@ -5,16 +5,30 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>İletişim - Çiçek Taş Beton</title>
+        <title>İletişim - Çiçek Taş Beton | Şev Taşı, Bordür Taşı, Kilitli Taş</title>
         <meta
           name="description"
-          content="Çiçek Taş Betonı olarak bize ulaşın! Telefon, e-posta veya iletişim formu ile sorularınızı yanıtlıyoruz. Hızlı ve güvenilir çözümler için buradayız."
+          content="Çiçek Taş Beton olarak bizimle iletişime geçin! Şev taşı, bordür taşı, kilitli taş ve diğer beton ürünlerimiz hakkında bilgi alın. Güvenilir ve hızlı çözümler sunuyoruz."
         />
         <meta
           name="keywords"
-          content="Çiçek Taş, iletişim, üst yapı elemanları, beton taşlar, müşteri hizmetleri,çiçek taş beton,şev taşı, bordür taşı"
+          content="çiçek taş, iletişim, şev taşı, bordür taşı, kilitli taş, beton taşlar, üst yapı elemanları, beton blok, müşteri hizmetleri"
         />
+        <meta property="og:title" content="İletişim - Çiçek Taş Beton | Şev Taşı, Bordür Taşı, Kilitli Taş" />
+        <meta
+          property="og:description"
+          content="Çiçek Taş Beton olarak bizimle iletişime geçin! Şev taşı, bordür taşı, kilitli taş ve diğer beton ürünlerimiz hakkında bilgi alın. Güvenilir ve hızlı çözümler sunuyoruz."
+        />
+         <meta property="og:image" content="https://www.cicektasbeton.com/flora-sev-tası8.webp" />
+        <meta property="og:url" content="https://www.cicektasbeton.com/iletisim" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/iletisim" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="İletişim - Çiçek Taş Beton | Şev Taşı, Bordür Taşı, Kilitli Taş" />
+        <meta name="twitter:description" content="Çiçek Taş Beton ile iletişime geçerek ürünlerimiz hakkında detaylı bilgi alabilirsiniz." />
+        <meta name="twitter:image" content="https://www.cicektasbeton.com/flora-sev-tası8.webp" />
       </Helmet>
+
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
         <h1 className="text-5xl font-extrabold text-center mb-10 text-gray-800">
@@ -23,8 +37,8 @@ const Contact = () => {
 
         {/* Açıklama */}
         <p className="text-lg text-gray-700 mb-8 leading-relaxed px-4 md:px-12 text-center">
-          Sorularınız veya ihtiyaçlarınız için bize ulaşabilirsiniz. Çiçek Taş
-          Üst Yapı Elemanları olarak size en iyi hizmeti sunmak için buradayız!
+          Sorularınız veya ihtiyaçlarınız için bizimle iletişime geçin. Çiçek Taş
+          Beton Elemanları olarak en iyi hizmeti sunmak için buradayız!
         </p>
 
         {/* İletişim Bilgileri */}
@@ -44,7 +58,6 @@ const Contact = () => {
             </li>
             <li className="flex items-center gap-4">
               <span className="font-bold">Yetkili:</span>
-
               <h2 className="font-bold">Hüseyin Çiçek</h2>
             </li>
             <li className="flex items-center gap-4">

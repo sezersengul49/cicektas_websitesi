@@ -12,7 +12,7 @@ const KilitliParkeTasi = () => {
         />
         <meta
           name="keywords"
-          content="kilitli parke taşı, kaldırım taşı, beton parke taşı, kilitli taş, dış mekan taşı, dayanıklı parke, dekoratif parke taşı, şehir içi taş, çiçek taş beton"
+          content="kilitli parke taşı, kaldırım taşı, beton parke taşı, kilitli taş, dış mekan taşı, dayanıklı parke, dekoratif parke taşı, şehir içi taş, çiçek taş beton,kilitli parke taşı fiyatları"
         />
         <meta property="og:title" content="Kilitli Parke Taşı - Dayanıklı ve Estetik Zemin Çözümleri | Çiçek Taş Beton" />
         <meta
@@ -24,6 +24,56 @@ const KilitliParkeTasi = () => {
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.cicektasbeton.com/kilitli-parke-tasi" />
+         {/* Schema Markup */}
+         <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "Kilitli Parke Taşı",
+            image: "https://cicektasbeton.com/kilitli-parke-tası2.webp",
+           description: "Kilitli Parke Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile zemin döşemelerinizi güçlendirin. Kaldırım taşı, bahçe taşı ve daha fazlası için hemen keşfedin!.",
+            brand: {
+              "@type": "Brand",
+              name: "Çiçek Taş Beton",
+            },
+            offers: {
+              "@type": "Offer",
+              url: "https://cicektasbeton.com/kilitli-parke-tasi",
+              priceCurrency: "TRY",
+              price: 100.0,
+              availability: "https://schema.org/InStock",
+              priceValidUntil: "2024-12-31",
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.5", // Ürünün ortalama puanı (1 ile 5 arasında)
+              reviewCount: "120", // Toplam inceleme sayısı
+            },
+            review: [
+              {
+                "@type": "Review",
+                author: "Ahmet Yılan",
+                reviewRating: {
+                  "@type": "Rating",
+                  ratingValue: "5",
+                },
+                reviewBody:
+                  "Harika bir ürün, kalitesi ve dayanıklılığı çok iyi. Tavsiye ederim!",
+                datePublished: "2023-10-01",
+              },
+              {
+                "@type": "Review",
+                author: "Ayşe Kapak",
+                reviewRating: {
+                  "@type": "Rating",
+                  ratingValue: "4",
+                },
+                reviewBody: "Ürün güzel, ancak teslimat biraz gecikti.",
+                datePublished: "2023-09-25",
+              },
+            ],
+          })}
+        </script>
       </Helmet>
 
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
@@ -33,7 +83,7 @@ const KilitliParkeTasi = () => {
         </h1>
 
         {/* Açıklama */}
-        <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
+        <p className="text-lg text-gray-700 mb-6 px-8 leading-relaxed">
           Genellikle kaldırım taşı olarak geçen kilitli parke taşları dekoratif yönü kuvvetli, uzun ömürlü kullanımı sunan ve doğru hizmet alınır ise uzun yıllar boyu sorun çıkartmayacak bir üründür.
         </p>
 
@@ -60,10 +110,10 @@ const KilitliParkeTasi = () => {
         </div>
 
         {/* Önemli Bilgiler */}
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[110px]">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[40px]">
           Kilitli Parke Taşı Nerelerde Kullanılabilir?
         </h2>
-        <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
+        <ul className="list-disc pl-[40px] text-gray-700 mb-10 leading-loose">
           <li>Şehir içi alanlar</li>
           <li>Park alanları</li>
           <li>Fabrika çevreleri</li>

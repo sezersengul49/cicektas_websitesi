@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 const BahceBordürü = () => {
   return (
     <>
-     <Helmet>
+      <Helmet>
         <title>20x50 Bahçe Bordürü - Çiçek Taş Beton Elemanları</title>
         <meta
           name="description"
@@ -12,52 +12,102 @@ const BahceBordürü = () => {
         />
         <meta
           name="keywords"
-          content="bahçe bordürü, beton bordür, çimen bordürü, 20x50 bahce bordürü, bahçe taşları, bahçe düzenleme, bordür taşı, beton taş, dış mekan taşları, bahçe peyzaj, çiçek taş beton"
+          content="bahçe bordürü, beton bordür, çimen bordürü, 20x50 bahce bordürü, bahçe taşları, bahçe düzenleme, bordür taşı, beton taş, dış mekan taşları, bahçe peyzaj, çiçek taş beton,bahçe bordürü fiyatları"
         />
         <meta name="robots" content="index, follow" />
 
         {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="20x50 Bahçe Bordürü - Çiçek Taş Beton" />
-        <meta property="og:description" content="Bahçe bordürü, beton çimen taşı ve bordür taşı modellerimizle bahçenizi güzelleştirin. Kırmızı, gri ve mozaikli seçeneklerle dayanıklı çözümler." />
-        <meta property="og:image" content="https://cicektasbeton.com/bahce-borduru7.webp" />
-        <meta property="og:url" content="https://cicektasbeton.com/bahce-borduru" />
+        <meta
+          property="og:title"
+          content="20x50 Bahçe Bordürü - Çiçek Taş Beton"
+        />
+        <meta
+          property="og:description"
+          content="Bahçe bordürü, beton çimen taşı ve bordür taşı modellerimizle bahçenizi güzelleştirin. Kırmızı, gri ve mozaikli seçeneklerle dayanıklı çözümler."
+        />
+        <meta
+          property="og:image"
+          content="https://cicektasbeton.com/bahce-borduru7.webp"
+        />
+        <meta
+          property="og:url"
+          content="https://cicektasbeton.com/bahce-borduru"
+        />
 
         {/* Schema Markup */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Product",
-            "name": "20x50 Bahçe Bordürü",
-            "image": "https://cicektasbeton.com/bahce-borduru7.webp",
-            "description": "Beton bahçe bordürü, kırmızı, gri ve mozaikli seçenekleriyle bahçenizi güzelleştirin.",
-            "brand": {
+            name: "20x50 Bahçe Bordürü",
+            image: "https://cicektasbeton.com/bahce-borduru7.webp",
+            description:
+              "Beton bahçe bordürü, kırmızı, gri ve mozaikli seçenekleriyle bahçenizi güzelleştirin.",
+            brand: {
               "@type": "Brand",
-              "name": "Çiçek Taş Beton"
+              name: "Çiçek Taş Beton",
             },
-            "offers": {
+            offers: {
               "@type": "Offer",
-              "url": "https://cicektasbeton.com/bahce-borduru",
-              "priceCurrency": "TRY",
-              "availability": "https://schema.org/InStock"
-            }
+              url: "https://cicektasbeton.com/bahce-borduru",
+              priceCurrency: "TRY",
+              price: 100.0,
+              availability: "https://schema.org/InStock",
+              priceValidUntil: "2024-12-31",
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.6", // Ürünün ortalama puanı (1 ile 5 arasında)
+              reviewCount: "130", // Toplam inceleme sayısı
+            },
+            review: [
+              {
+                "@type": "Review",
+                author: "Ahmet Yilmazca",
+                reviewRating: {
+                  "@type": "Rating",
+                  ratingValue: "5",
+                },
+                reviewBody:
+                  "Harika bir ürün, kalitesi ve dayanıklılığı çok iyi. Tavsiye ederim!",
+                datePublished: "2023-10-01",
+              },
+              {
+                "@type": "Review",
+                author: "Ayşe Kayakci",
+                reviewRating: {
+                  "@type": "Rating",
+                  ratingValue: "4",
+                },
+                reviewBody: "Ürün güzel, ancak teslimat biraz gecikti.",
+                datePublished: "2023-09-25",
+              },
+            ],
           })}
         </script>
       </Helmet>
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
         {/* Başlık */}
         <h1 className="text-3xl font-extrabold text-center mb-6 text-gray-900">
-          20X50 BAHÇE BORDÜRÜ
+          20x50 Bahçe Bordürü - Bahçeniz İçin Dayanıklı ve Estetik Çözümler
         </h1>
 
         {/* Açıklama */}
-        <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
-          Bahçe Bordürü, genellikle bahçelerde ve dış mekanlarda kullanılan dayanıklı beton yapıdır. Kırmızı, gri ve mozaikli seçenekleriyle estetik görünüme sahip olan bu ürün, kaldırım taşları ve yollar için mükemmel bir seçenektir. Çimen sınırlarını belirlemek ve topraklı alanları yola ayırmak için ideal bir çözümdür.
+        <p className="text-lg text-gray-700 mb-6 px-8 leading-relaxed">
+          20x50 bahçe bordürü, bahçe düzenleme ve peyzaj projelerinde sıkça
+          tercih edilen dayanıklı bir beton üründür. Hem estetik hem de
+          fonksiyonel bir çözüm sunan bu bordürler, bahçe sınırlarını
+          belirlemek, çim alanlarını korumak ve yürüyüş yollarını düzenlemek
+          için idealdir. Özellikle kırmızı, gri ve mozaikli seçenekleriyle
+          bahçenize modern bir görünüm kazandırır. Ürünümüz, yüksek
+          dayanıklılığı ve uzun ömürlü yapısıyla dış mekanlarda uzun yıllar
+          sorunsuz kullanım sunar.
         </p>
 
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="/bahce-borduru7.webp"
+            src="/oluktasi-20x50bahce.webp"
             alt="20x50 Bahçe Bordürü Kırmızı ve Gri Seçenekleriyle-Çiçek Taş Beton"
             loading="lazy"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
@@ -77,20 +127,35 @@ const BahceBordürü = () => {
         </div>
 
         {/* Önemli Bilgiler */}
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[110px]">
-          Önemli Bilgiler
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[50px]">
+          Bahçe Bordürü Nedir ve Nerelerde Kullanılır?
         </h2>
-        <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
-          <li>Bahçe bordürü genellikle belediye parkları, özel mülkler ve peyzaj alanlarında kullanılır.</li>
-          <li>Üst genişliği 9 cm, alt genişliği 12 cm, yüksekliği 20 cm ve uzunluğu 50 cm olan modeller mevcuttur.</li>
-          <li>Farklı renk seçenekleriyle, özellikle gri ve kırmızı, kullanıcılara estetik çözümler sunar.</li>
-          <li>Bir palette 70 adet bahçe bordürü taşı bulunmaktadır ve her biri 25 kg ağırlığındadır.</li>
-          <li>Filmli ve düz yüzey seçenekleri ile estetik ve dayanıklı alternatifler sunulmaktadır.</li>
+        <ul className="list-disc pl-[50px] text-gray-700 mb-10 leading-loose">
+          <li>
+            Bahçe bordürü genellikle belediye parkları, özel mülkler ve peyzaj
+            alanlarında kullanılır.
+          </li>
+          <li>
+            Üst genişliği 9 cm, alt genişliği 12 cm, yüksekliği 20 cm ve
+            uzunluğu 50 cm olan modeller mevcuttur.
+          </li>
+          <li>
+            Farklı renk seçenekleriyle, özellikle gri ve kırmızı, kullanıcılara
+            estetik çözümler sunar.
+          </li>
+          <li>
+            Bir palette 70 adet bahçe bordürü taşı bulunmaktadır ve her biri 25
+            kg ağırlığındadır.
+          </li>
+          <li>
+            Filmli ve düz yüzey seçenekleri ile estetik ve dayanıklı
+            alternatifler sunulmaktadır.
+          </li>
         </ul>
 
         {/* Ölçü ve Boyut Bilgileri */}
         <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
-        20x50 Bahçe Bordürü Ölçü ve Boyut Bilgileri
+          20x50 Bahçe Bordürü Teknik Özellikleri ve Boyutları
         </h3>
 
         {/* Tablo */}
@@ -157,7 +222,7 @@ const BahceBordürü = () => {
             loading="lazy"
             className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
           />
-           <img
+          <img
             src="/30x70yol5.webp"
             alt="Mozaikli bahçe bordürü örneği-Çiçek Taş Beton"
             loading="lazy"

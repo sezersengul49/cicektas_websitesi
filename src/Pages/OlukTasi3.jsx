@@ -12,7 +12,7 @@ const OlukTasi3 = () => {
         />
         <meta
           name="keywords"
-          content="25x25 oluk taşı, oluk taşı, drenaj taşı, kaldırım taşı, bahçe taşı, Çiçek Taş, beton elemanları, çiçek taş beton"
+          content="25x25 oluk taşı, oluk taşı, drenaj taşı, kaldırım taşı, bahçe taşı, Çiçek Taş, beton elemanları, çiçek taş beton,oluk taşı fiyatları"
         />
         <meta property="og:title" content="25x25 Oluk Taşı - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton" />
         <meta
@@ -33,7 +33,7 @@ const OlukTasi3 = () => {
         </h1>
 
         {/* Açıklama */}
-        <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
+        <p className="text-lg text-gray-700 mb-6 px-8 leading-relaxed">
           Oluk Taşı; bahçe, yol, kaldırım gibi peyzaj düzenlemesi yapılan
           alanlarda, yağan yağmur sularının birikmesi, tahliyesi, suyun
           yönlendirilmesi ve drenaj sağlaması için ideal bir çözümdür. 25X25
@@ -57,10 +57,10 @@ const OlukTasi3 = () => {
         </div>
 
         {/* Önemli Bilgiler */}
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[110px]">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[40px]">
           Önemli Bilgiler
         </h2>
-        <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
+        <ul className="list-disc pl-[40px] text-gray-700 mb-10 leading-loose">
           <li>
             Yağmur oluk taşı tahliye etme özelliği sayesinde su taşkınlarını
             önler.

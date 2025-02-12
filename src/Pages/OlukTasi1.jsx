@@ -12,7 +12,7 @@ const OlukTasi1 = () => {
         />
         <meta
           name="keywords"
-          content="20x20 oluk taşı, oluk taşı, drenaj taşı, kaldırım taşı, bahçe taşı, Çiçek Taş, beton elemanları, çiçek taş beton"
+          content="20x20 oluk taşı, oluk taşı, drenaj taşı, kaldırım taşı, bahçe taşı, Çiçek Taş, beton elemanları, çiçek taş beton, oluk taşı fiyatları"
         />
         <meta name="author" content="Çiçek Taş Beton" />
         <meta name="robots" content="index, follow" />
@@ -22,10 +22,10 @@ const OlukTasi1 = () => {
           content="20x20 Oluk Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile drenaj çözümleri sunar. Bahçe, yol ve kaldırım düzenlemeleri için ideal bir seçenek. Hemen keşfedin!"
         />
         <meta property="og:image" content="https://www.cicektasbeton.com/oluk-tası6.webp" />
-        <meta property="og:url" content="https://www.cicektasbeton.com/oluk-tasi/20x20" />
+        <meta property="og:url" content="https://www.cicektasbeton.com/oluk-tasi-20x20" />
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="canonical" href="https://www.cicektasbeton.com/oluk-tasi/20x20" />
+        <link rel="canonical" href="https://www.cicektasbeton.com/oluk-tasi-20x20" />
       </Helmet>
 
       <div className="container mx-auto p-6 md:p-10 bg-gray-50">
@@ -36,7 +36,7 @@ const OlukTasi1 = () => {
 
         {/* Açıklama */}
         <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
-          Oluk Taşı; bahçe, yol, kaldırım gibi peyzaj düzenlemesi yapılan
+          Oluk Taşı; bahçe,villa yol, kaldırım gibi peyzaj düzenlemesi yapılan
           alanlarda, yağan yağmur sularının birikmesi, tahliyesi, suyun
           yönlendirilmesi ve drenaj sağlaması için ideal bir çözümdür. 20X20
           oluk taşı fiyatları için firmamızla iletişime geçiniz.
@@ -45,24 +45,24 @@ const OlukTasi1 = () => {
         {/* Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           <img
-            src="/oluk-tası6.webp"
+            src="/oluktasi-20x20.webp"
             alt="20x20 Oluk Taşı - Dayanıklı ve estetik drenaj çözümü"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[420px] h-[350px] rounded-lg shadow-lg mx-auto "
             loading="lazy"
           />
           <img
-            src="/oluk-tası4.webp"
+            src="/oluktasi-20x20-1.webp"
             alt="20x20 Oluk Taşı - Pratik ve hızlı uygulanabilir"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[420px] h-[350px] rounded-lg shadow-lg mx-auto"
             loading="lazy"
           />
         </div>
 
         {/* Önemli Bilgiler */}
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[110px]">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[40px]">
           Önemli Bilgiler
         </h2>
-        <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
+        <ul className="list-disc pl-[40px] text-gray-700 mb-10 leading-loose">
           <li>
             Yağmur oluk taşı tahliye etme özelliği sayesinde su taşkınlarını
             önler.
@@ -78,28 +78,24 @@ const OlukTasi1 = () => {
         </h3>
 
         {/* Tablo */}
-        <div className="overflow-x-auto bg-white shadow-lg rounded-lg mb-6 md:mx-[100px] lg:mx-[95px]">
+        <div className="overflow-x-auto bg-white shadow-lg rounded-lg mb-6 md:mx-[100px] lg:mx-[125px]">
           <table className="min-w-full text-sm md:text-base table-auto text-gray-700 break-words border-collapse border border-gray-300">
             <thead className="bg-gray-200 text-gray-800">
               <tr>
                 <th className="px-4 py-2 md:px-6 md:py-4 text-left border border-gray-300">
-                  Yükseklik (cm)
+                  En (cm)
                 </th>
                 <th className="px-4 py-2 md:px-6 md:py-4 text-left border border-gray-300">
-                  Genişlik (cm)
+                  Boy (cm)
                 </th>
                 <th className="px-4 py-2 md:px-6 md:py-4 text-left border border-gray-300">
-                  Uzunluk (cm)
+                  Kalınlık (cm)
                 </th>
+              
                 <th className="px-4 py-2 md:px-6 md:py-4 text-left border border-gray-300">
-                  M² (Adet)
+                  Ağırlık(kg)
                 </th>
-                <th className="px-4 py-2 md:px-6 md:py-4 text-left border border-gray-300">
-                  Adet (kg)
-                </th>
-                <th className="px-4 py-2 md:px-6 md:py-4 text-left border border-gray-300">
-                  Palet (Adet)
-                </th>
+                
               </tr>
             </thead>
             <tbody>
@@ -108,20 +104,15 @@ const OlukTasi1 = () => {
                   20
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  26
+                  20
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  36
+                  7
                 </td>
                 <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  22
+                 4
                 </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  23
-                </td>
-                <td className="px-4 py-2 md:px-6 md:py-4 border border-gray-300">
-                  72
-                </td>
+               
               </tr>
             </tbody>
           </table>
@@ -130,15 +121,15 @@ const OlukTasi1 = () => {
         {/* Diğer Görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
-            src="/oluk-tası2.webp"
+            src="/oluktasi-20x50bahce.webp"
             alt="20x20 Oluk Taşı - Çeşitli renk ve desen seçenekleri"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[420px] h-[350px] rounded-lg shadow-lg mx-auto"
             loading="lazy"
           />
           <img
             src="/oluk-tası4.webp"
             alt="20x20 Oluk Taşı - Estetik ve dayanıklı"
-            className="w-full max-w-[350px] h-[350px] rounded-lg shadow-lg mx-auto"
+            className="w-full max-w-[420px] h-[350px] rounded-lg shadow-lg mx-auto"
             loading="lazy"
           />
         </div>

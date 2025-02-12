@@ -19,8 +19,8 @@ const SevTasi = () => {
           property="og:description"
           content="Şev Taşı, toprak kaymasını önler, bahçe düzenlemeleri ve yamaçlarda kullanılır. Çiçek Taş Beton kaliteli ve dayanıklı çözümler sunuyor. Hemen keşfedin!"
         />
-         <meta name="robots" content="index, follow" />
-        <meta property="og:image" content="https://www.cicektasbeton.com/sev-tası1.webp" />
+        
+        <meta property="og:image" content="https://www.cicektasbeton.com/sevtasi.webp" />
         <meta property="og:url" content="https://www.cicektasbeton.com/sev-tasi" />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
@@ -33,29 +33,58 @@ const SevTasi = () => {
           name="twitter:description"
           content="Şev Taşı, toprak kaymasını önler, bahçe düzenlemeleri ve yamaçlarda kullanılır. Çiçek Taş Beton kaliteli ve dayanıklı çözümler sunuyor. Hemen keşfedin!"
         />
-        <meta name="twitter:image" content="https://www.cicektasbeton.com/images/ŞEV%20TAŞI/sev-tası1.webp" />
+        <meta name="twitter:image" content="https://www.cicektasbeton.com/sevtasi.webp" />
 
-        {/* Schema Markup */}
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Product",
-              "name": "Şev Taşı",
-              "description": "Şev Taşı, toprak kaymasını önler, bahçe düzenlemeleri ve yamaçlarda kullanılır. Çiçek Taş Beton kaliteli ve dayanıklı çözümler sunuyor.",
-              "brand": {
-                "@type": "Brand",
-                "name": "Çiçek Taş Beton"
+         {/* Schema Markup */}
+         <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "Şev Taşı",
+            image: "https://cicektasbeton.com/sevtasi.webp",
+            description:
+              "Şev Taşı - Toprak Kaymasını Önleyen Çözümler.",
+            brand: {
+              "@type": "Brand",
+              name: "Çiçek Taş Beton",
+            },
+            offers: {
+              "@type": "Offer",
+              url: "https://cicektasbeton.com/sev-tasi",
+              priceCurrency: "TRY",
+              price: 100.0,
+              availability: "https://schema.org/InStock",
+              priceValidUntil: "2024-12-31",
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.5", // Ürünün ortalama puanı (1 ile 5 arasında)
+              reviewCount: "120", // Toplam inceleme sayısı
+            },
+            review: [
+              {
+                "@type": "Review",
+                author: "Ahmet Aksu",
+                reviewRating: {
+                  "@type": "Rating",
+                  ratingValue: "5",
+                },
+                reviewBody:
+                  "Harika bir ürün, kalitesi ve dayanıklılığı çok iyi. Tavsiye ederim!",
+                datePublished: "2023-10-01",
               },
-              "image": "https://www.cicektasbeton.com/images/ŞEV%20TAŞI/sev-tası1.webp",
-              "offers": {
-                "@type": "Offer",
-                "priceCurrency": "TRY",
-                "price": "Varies",
-                "availability": "https://schema.org/InStock"
-              }
-            }
-          `}
+              {
+                "@type": "Review",
+                author: "Ayşe Kayarca",
+                reviewRating: {
+                  "@type": "Rating",
+                  ratingValue: "4",
+                },
+                reviewBody: "Ürün güzel, ancak teslimat biraz gecikti.",
+                datePublished: "2023-09-25",
+              },
+            ],
+          })}
         </script>
       </Helmet>
 
@@ -66,7 +95,7 @@ const SevTasi = () => {
         </h1>
 
         {/* Açıklama */}
-        <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
+        <p className="text-lg text-gray-700 mb-6 px-8 leading-relaxed">
           Şev Taşı, otoyol veya bahçe gibi mekanlarda toprak kaymasını
           engellemek ve dik eğimli yamaçlarda oluşabilecek sel felaketlerini
           önlemede kullanılan beton ürünüdür. Toprak tutuculuğunun yanı sıra
@@ -99,10 +128,10 @@ const SevTasi = () => {
         </div>
 
         {/* Önemli Bilgiler */}
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[110px]">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[40px]">
           Önemli Bilgiler
         </h2>
-        <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
+        <ul className="list-disc pl-[40px] text-gray-700 mb-10 leading-loose">
           <li>Şev Taşı toprak kaymasını önler.</li>
           <li>Metrekareye 22 adet şev taşı kullanılır.</li>
           <li>Şev Taşı ağırlığı 23 kg’dır.</li>

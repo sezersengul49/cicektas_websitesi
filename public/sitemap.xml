@@ -13,19 +13,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cicektasbeton.com/contact</loc>
+    <loc>https://cicektasbeton.com/iletisim</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cicektasbeton.com/products</loc>
+    <loc>https://cicektasbeton.com/ürünler</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cicektasbeton.com/photo</loc>
+    <loc>https://cicektasbeton.com/galeri</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -85,31 +85,26 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cicektasbeton.com/20x20-oluk-tasi</loc>
+    <loc>https://cicektasbeton.com/oluk-tasi-20x20</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+ 
+  <url>
+    <loc>https://cicektasbeton.com/oluk-tasi-25x25</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cicektasbeton.com/20x30-oluk-tasi</loc>
+    <loc>https://cicektasbeton.com/oluk-tasi-25x30</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cicektasbeton.com/25x25-oluk-tasi</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cicektasbeton.com/25x30-oluk-tasi</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cicektasbeton.com/25x33-oluk-tasi</loc>
+    <loc>https://cicektasbeton.com/oluk-tasi-25x33</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

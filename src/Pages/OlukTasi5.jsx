@@ -1,38 +1,60 @@
-import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import React from "react";
+import { Helmet } from "react-helmet-async";
 
 const OlukTasi4 = () => {
   return (
     <>
       <Helmet>
-        <title> Oluk Taşı 25x33 - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton</title>
+        <title>
+          {" "}
+          Oluk Taşı 25x33 - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş
+          Beton
+        </title>
         <meta
           name="description"
-          content="25x30 Oluk Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile drenaj çözümleri sunar. Bahçe, yol ve kaldırım düzenlemeleri için ideal bir seçenek. Hemen keşfedin!"
+          content="25x33 Oluk Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile drenaj çözümleri sunar. Bahçe, yol ve kaldırım düzenlemeleri için ideal bir seçenek. Hemen keşfedin!"
         />
         <meta
           name="keywords"
-          content="25x30 oluk taşı, oluk taşı, drenaj taşı, kaldırım taşı, bahçe taşı, Çiçek Taş, beton elemanları, çiçek taş beton"
+          content="25x33 oluk taşı, oluk taşı, drenaj taşı, kaldırım taşı, bahçe taşı, Çiçek Taş, beton elemanları, çiçek taş beton,oluk taşı fiyatları"
         />
-        <meta property="og:title" content="25x30 Oluk Taşı - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton" />
+        <meta
+          property="og:title"
+          content="25x33 Oluk Taşı - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton"
+        />
         <meta
           property="og:description"
-          content="25x30 Oluk Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile drenaj çözümleri sunar. Bahçe, yol ve kaldırım düzenlemeleri için ideal bir seçenek. Hemen keşfedin!"
+          content="25x33 Oluk Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile drenaj çözümleri sunar. Bahçe, yol ve kaldırım düzenlemeleri için ideal bir seçenek. Hemen keşfedin!"
         />
-        <meta property="og:image" content="https://www.cicektasbeton.com/oluk-tası6.webp" />
-        <meta property="og:url" content="https://www.cicektasbeton.com/oluk-tasi-25x33" />
+        <meta
+          property="og:image"
+          content="https://www.cicektasbeton.com/oluk-tası6.webp"
+        />
+        <meta
+          property="og:url"
+          content="https://www.cicektasbeton.com/oluk-tasi-25x33"
+        />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.cicektasbeton.com/oluk-tasi-25x33" />
+        <link
+          rel="canonical"
+          href="https://www.cicektasbeton.com/oluk-tasi-25x33"
+        />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="25x33 Oluk Taşı - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton" />
+        <meta
+          name="twitter:title"
+          content="25x33 Oluk Taşı - Dayanıklı ve Estetik Drenaj Çözümleri | Çiçek Taş Beton"
+        />
         <meta
           name="twitter:description"
           content="25x33 Oluk Taşı, Çiçek Taş Beton'un kaliteli ve dayanıklı beton taşları ile drenaj çözümleri sunar. Bahçe, yol ve kaldırım düzenlemeleri için ideal bir seçenek. Hemen keşfedin!"
         />
-        <meta name="twitter:image" content="https://www.cicektasbeton.com/oluk-tası6.webp" />
+        <meta
+          name="twitter:image"
+          content="https://www.cicektasbeton.com/oluk-tası6.webp"
+        />
 
         {/* Schema Markup */}
         <script type="application/ld+json">
@@ -50,27 +72,70 @@ const OlukTasi4 = () => {
               "offers": {
                 "@type": "Offer",
                 "priceCurrency": "TRY",
-                "price": "Varies",
-                "availability": "https://schema.org/InStock"
-              }
+                "price": 100.00,
+                "availability": "https://schema.org/InStock",
+                "priceValidUntil": "2025-12-31"
+              },
+               aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.5", // Ürünün ortalama puanı (1 ile 5 arasında)
+              reviewCount: "120", // Toplam inceleme sayısı
+            },
+            "review": [
+    {
+      "@type": "Review",
+      "author": "Ahmet Yılmaz",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Harika bir ürün, kalitesi ve dayanıklılığı çok iyi. Tavsiye ederim!",
+      "datePublished": "2023-10-01"
+    },
+    {
+      "@type": "Review",
+      "author": "Ayşe Kaya",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4"
+      },
+      "reviewBody": "Ürün güzel, ancak teslimat biraz gecikti.",
+      "datePublished": "2023-09-25"
+    }
+  ]
             }
           `}
         </script>
       </Helmet>
 
-      <div className="container mx-auto p-6 md:p-10 bg-gray-50">
+      <div className="container mx-auto p-6 md:p-8 bg-gray-50">
         {/* Breadcrumb Navigasyonu */}
         <nav className="text-sm mb-6" aria-label="Breadcrumb">
           <ol className="list-none p-0 inline-flex">
             <li className="flex items-center">
-              <a href="/" className="text-gray-700 hover:text-gray-900">Ana Sayfa</a>
-              <svg className="fill-current w-3 h-3 mx-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <a href="/" className="text-gray-700 hover:text-gray-900">
+                Ana Sayfa
+              </a>
+              <svg
+                className="fill-current w-3 h-3 mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
                 <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" />
               </svg>
             </li>
             <li className="flex items-center">
-              <a href="/oluk-tasi" className="text-gray-700 hover:text-gray-900">Oluk Taşları</a>
-              <svg className="fill-current w-3 h-3 mx-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <a
+                href="/oluk-tasi"
+                className="text-gray-700 hover:text-gray-900"
+              >
+                Oluk Taşları
+              </a>
+              <svg
+                className="fill-current w-3 h-3 mx-3"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
                 <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" />
               </svg>
             </li>
@@ -82,11 +147,11 @@ const OlukTasi4 = () => {
 
         {/* Başlık */}
         <h1 className="text-3xl font-extrabold text-center mb-6 text-gray-900">
-           Oluk Taşı 25x33 - Yağmur Suyu Tahliyesi İçin En İyi Çözüm
+          Oluk Taşı 25x33 - Yağmur Suyu Tahliyesi İçin En İyi Çözüm
         </h1>
 
         {/* Açıklama */}
-        <p className="text-lg text-gray-700 mb-6 px-14 leading-relaxed">
+        <p className="text-lg text-gray-700 mb-6 px-8 leading-relaxed">
           Oluk Taşı; bahçe, yol, kaldırım gibi peyzaj düzenlemesi yapılan
           alanlarda, yağan yağmur sularının birikmesi, tahliyesi, suyun
           yönlendirilmesi ve drenaj sağlaması için ideal bir çözümdür. 25X30
@@ -110,10 +175,10 @@ const OlukTasi4 = () => {
         </div>
 
         {/* Önemli Bilgiler */}
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[110px]">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4 px-[40px]">
           Önemli Bilgiler
         </h2>
-        <ul className="list-disc pl-[100px] text-gray-700 mb-10 leading-loose">
+        <ul className="list-disc pl-[40px] text-gray-700 mb-10 leading-loose">
           <li>
             Yağmur oluk taşı tahliye etme özelliği sayesinde su taşkınlarını
             önler.

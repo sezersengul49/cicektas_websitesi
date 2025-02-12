@@ -12,4 +12,4 @@ HTML,CSS,JS, React ,React Router Dom,Tailwind SEO, Google Search, Google Analyti
 <h3>Ekran Görüntüsü</h3>
 
 
-![](media.gif)
+![](/public/media.gif)
